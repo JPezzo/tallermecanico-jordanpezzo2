@@ -348,21 +348,20 @@ button.button-section1-servicios:hover {
     background-size: auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2.8rem repeat(7, 7rem);
+    grid-template-rows: 3rem repeat(6, 7rem);
     grid-template-areas: "h2-section2-index" "h3-1-section2-index" "p1-section2-index" "h3-2-section2-index" "p2-section2-index" "h3-3-section2-index" "p3-section2-index" "img-section2-index";
     align-items: center;
     justify-items: center;
   }
 
   .h2-section-2 {
-    font-size: 2.2rem;
-    padding: 0.3rem;
+    font-size: 2rem;
     align-self: start;
     width: 100%;
   }
 
   .h3-section-2 {
-    text-align: center;
+    text-align: end;
     font-size: 1.8rem;
     text-shadow: 0.1rem 0.1rem black;
     background-color: rgba(26, 157, 209, 0);
