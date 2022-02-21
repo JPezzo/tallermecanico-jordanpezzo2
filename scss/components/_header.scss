@@ -1,0 +1,98 @@
+/* Header */
+
+@import "../base/variables";
+
+header{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: -0.1px;
+    z-index: 3;
+    grid-area: header;
+}
+
+.navbar {
+    width: 100%;
+    z-index: 2;
+}
+
+.background-navbar {
+    background: url(../archivos-multimedia/header.jpg);
+}
+
+.lista-horizontal {
+    list-style: none;
+    font-size: $font-size-header;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-inicio {
+    text-shadow: $text-shadow-general;
+    text-decoration: underline;
+    color: white;
+}
+
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-el-taller {
+    text-shadow: $text-shadow-general;
+    text-decoration: underline;
+    color: white;
+}
+
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-servicios {
+    text-shadow: $text-shadow-general;
+    text-decoration: underline;
+    color: white;
+}
+
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-promociones {
+    text-shadow: $text-shadow-general;
+    text-decoration: underline;
+    color: white;
+}
+
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-contacto {
+    text-shadow: $text-shadow-general;
+    text-decoration: underline;
+    color: white;
+}
+
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header {
+    color: white;
+    text-shadow: $text-shadow-general;
+}
+
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header:hover {
+    color: rgba(22, 104, 199, 0.8);
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+.logo-header {
+    width: 100%;
+    padding-left: 30px;
+}
+
+.logo-header:hover {
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+@media screen and (min-width: 481px) and (max-width: 980px) {
+
+    header nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    header nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+}

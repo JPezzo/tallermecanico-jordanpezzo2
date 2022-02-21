@@ -1,0 +1,64 @@
+/* Body */
+
+@import "variables";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $bg-color-general;
+}
+
+.grid-container-body-index {
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-areas: 
+    "header"
+    "section-1"
+    "section-2"
+    "footer";
+}
+
+.grid-container-body-eltaller {
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-areas: 
+    "header"
+    "section-1-eltaller"
+    "footer";
+}
+
+.grid-container-body-servicios {
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-areas: 
+    "header"
+    "section-1-servicios"
+    "footer";
+}
+
+.grid-container-body-promociones {
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-areas: 
+    "header"
+    "section-1-promociones"
+    "footer";
+}
+
+.grid-container-body-contacto {
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-areas: 
+    "header"
+    "section-1-contacto"
+    "footer";
+}
+
+/* Tipografía */
+
+p, li, h2, h3, h4, a {
+    font-family: 'Lexend', sans-serif;
+}

@@ -1,0 +1,1173 @@
+@charset "UTF-8";
+/* Body */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1a9dd1;
+}
+
+.grid-container-body-index {
+  display: grid;
+  grid-template-rows: max-content;
+  grid-template-areas: "header" "section-1" "section-2" "footer";
+}
+
+.grid-container-body-eltaller {
+  display: grid;
+  grid-template-rows: max-content;
+  grid-template-areas: "header" "section-1-eltaller" "footer";
+}
+
+.grid-container-body-servicios {
+  display: grid;
+  grid-template-rows: max-content;
+  grid-template-areas: "header" "section-1-servicios" "footer";
+}
+
+.grid-container-body-promociones {
+  display: grid;
+  grid-template-rows: max-content;
+  grid-template-areas: "header" "section-1-promociones" "footer";
+}
+
+.grid-container-body-contacto {
+  display: grid;
+  grid-template-rows: max-content;
+  grid-template-areas: "header" "section-1-contacto" "footer";
+}
+
+/* Tipografía */
+p, li, h2, h3, h4, a {
+  font-family: "Lexend", sans-serif;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: -0.1px;
+  z-index: 3;
+  grid-area: header;
+}
+
+.navbar {
+  width: 100%;
+  z-index: 2;
+}
+
+.background-navbar {
+  background: url(../archivos-multimedia/header.jpg);
+}
+
+.lista-horizontal {
+  list-style: none;
+  font-size: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-inicio {
+  text-shadow: 1.5px 1.5px black;
+  text-decoration: underline;
+  color: white;
+}
+
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-el-taller {
+  text-shadow: 1.5px 1.5px black;
+  text-decoration: underline;
+  color: white;
+}
+
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-servicios {
+  text-shadow: 1.5px 1.5px black;
+  text-decoration: underline;
+  color: white;
+}
+
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-promociones {
+  text-shadow: 1.5px 1.5px black;
+  text-decoration: underline;
+  color: white;
+}
+
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-contacto {
+  text-shadow: 1.5px 1.5px black;
+  text-decoration: underline;
+  color: white;
+}
+
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header {
+  color: white;
+  text-shadow: 1.5px 1.5px black;
+}
+
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header:hover {
+  color: rgba(22, 104, 199, 0.8);
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+
+.logo-header {
+  width: 100%;
+  padding-left: 30px;
+}
+
+.logo-header:hover {
+  transform: scale(1.05);
+  transition: all 1s ease;
+}
+
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  header nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (max-width: 480px) {
+  header nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+}
+/* Sección 1 del INDEX */
+.section-1-index {
+  grid-area: section-1;
+  width: 100%;
+}
+
+.section-1-index > img {
+  width: 99.99%;
+}
+
+h5.recomendaciones {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgba(112, 206, 250, 0.8);
+  font-size: 60px;
+  color: white;
+  text-shadow: 1.5px 1.5px black;
+}
+
+button.button-section1-servicios {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgba(112, 206, 250, 0.8);
+  text-shadow: 1.5px 1.5px black;
+  border: 5px outset cadetblue;
+  box-shadow: 1.5px 1.5px black;
+}
+
+a.a-section-1-servicios {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+
+a.a-section-1-servicios:hover {
+  color: rgba(22, 104, 199, 0.8);
+}
+
+button.button-section1-servicios:hover {
+  animation: moveButton 3s;
+}
+
+@keyframes moveButton {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(-2px);
+  }
+  20% {
+    transform: translateY(2px);
+  }
+  30% {
+    transform: translateY(-2px);
+  }
+  40% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+  60% {
+    transform: translateY(2px);
+  }
+  70% {
+    transform: translateY(-2px);
+  }
+  80% {
+    transform: translateY(1.2px);
+  }
+  90% {
+    transform: translateY(-1.2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  h5.recomendaciones {
+    background-color: rgba(112, 206, 250, 0.8);
+    font-size: 2.3rem;
+  }
+
+  a.a-section-1-servicios {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  h5.recomendaciones {
+    background-color: rgba(112, 206, 250, 0.8);
+    font-size: 2.3rem;
+  }
+
+  a.a-section-1-servicios {
+    font-size: 1.8rem;
+  }
+}
+/* Sección 2 del INDEX */
+.section-2-index {
+  grid-area: section-2;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 145px 70px 145px 70px 145px 70px 155px;
+  grid-template-areas: "h2-section2-index h2-section2-index" "h3-1-section2-index img-section2-index" "p1-section2-index img-section2-index" "h3-2-section2-index img-section2-index" "p2-section2-index img-section2-index" "h3-3-section2-index img-section2-index" "p3-section2-index img-section2-index";
+  align-items: center;
+}
+
+.h2-section-2 {
+  font-size: 50px;
+  text-decoration: underline;
+  color: white;
+  text-align: center;
+  text-shadow: 1.5px 1.5px black;
+  background-color: #1a9dd1;
+  grid-area: h2-section2-index;
+}
+
+.h3-section-2 {
+  padding: 5px;
+  font-size: 40px;
+  text-decoration: underline;
+  color: white;
+  text-shadow: 1.5px 1.5px black;
+  background-color: #1a9dd1;
+}
+
+.h3-1-section2-index {
+  grid-area: h3-1-section2-index;
+}
+
+.h3-2-section2-index {
+  grid-area: h3-2-section2-index;
+}
+
+.h3-3-section2-index {
+  grid-area: h3-3-section2-index;
+}
+
+.p-section-2 {
+  padding: 5px;
+  font-size: 35px;
+  color: white;
+  text-shadow: 1.5px 1.5px black;
+  background-color: #1a9dd1;
+}
+
+.p1-section2-index {
+  grid-area: p1-section2-index;
+}
+
+.p2-section2-index {
+  grid-area: p2-section2-index;
+}
+
+.p3-section2-index {
+  grid-area: p3-section2-index;
+}
+
+.img-section2-index {
+  grid-area: img-section2-index;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  .section-2-index {
+    background: url(../archivos-multimedia/taller-mecanico-frente.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 6rem);
+    grid-template-areas: "h2-section2-index" "h3-1-section2-index" "p1-section2-index" "h3-2-section2-index" "p2-section2-index" "h3-3-section2-index" "p3-section2-index" "img-section2-index";
+    align-items: center;
+    justify-items: center;
+  }
+
+  .h2-section-2 {
+    font-size: 2.3rem;
+    padding: 0.3rem;
+    align-self: start;
+    width: 100%;
+  }
+
+  .h3-section-2 {
+    text-align: center;
+    font-size: 1.8rem;
+    text-shadow: 0.1rem 0.1rem black;
+    background-color: rgba(26, 157, 209, 0);
+  }
+
+  .p-section-2 {
+    text-align: center;
+    font-size: 1.6rem;
+    text-shadow: 0.1rem 0.1rem black;
+    background-color: rgba(26, 157, 209, 0);
+  }
+
+  .img-section2-index {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section-2-index {
+    background: url(../archivos-multimedia/taller-mecanico-frente.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2.8rem repeat(7, 7rem);
+    grid-template-areas: "h2-section2-index" "h3-1-section2-index" "p1-section2-index" "h3-2-section2-index" "p2-section2-index" "h3-3-section2-index" "p3-section2-index" "img-section2-index";
+    align-items: center;
+    justify-items: center;
+  }
+
+  .h2-section-2 {
+    font-size: 2.2rem;
+    padding: 0.3rem;
+    align-self: start;
+    width: 100%;
+  }
+
+  .h3-section-2 {
+    text-align: center;
+    font-size: 1.8rem;
+    text-shadow: 0.1rem 0.1rem black;
+    background-color: rgba(26, 157, 209, 0);
+  }
+
+  .p-section-2 {
+    text-align: center;
+    font-size: 1.6rem;
+    text-shadow: 0.1rem 0.1rem black;
+    background-color: rgba(26, 157, 209, 0);
+  }
+
+  .img-section2-index {
+    display: none;
+  }
+}
+/* Sección 1 de EL TALLER */
+.section-1-eltaller {
+  grid-area: section-1-eltaller;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 145px repeat(3, 1fr);
+  grid-template-areas: "h2-el-taller h2-el-taller" "p1-el-taller img1-el-taller" "img2-el-taller p2-el-taller" "p3-el-taller img3-el-taller";
+  align-items: center;
+}
+
+.h2-el-taller {
+  padding: 5px;
+  font-size: 45px;
+  text-decoration: underline;
+  color: white;
+  text-align: center;
+  text-shadow: 1.5px 1.5px black;
+  background-color: #1a9dd1;
+  grid-area: h2-el-taller;
+}
+
+.p-section-el-taller {
+  padding: 5px;
+  font-size: 40px;
+  color: white;
+  text-shadow: 1.5px 1.5px black;
+  background-color: #1a9dd1;
+  text-align: center;
+}
+
+.p1-el-taller {
+  grid-area: p1-el-taller;
+}
+
+.p2-el-taller {
+  grid-area: p2-el-taller;
+}
+
+.p3-el-taller {
+  grid-area: p3-el-taller;
+}
+
+.frente-taller {
+  width: 100%;
+  height: 100%;
+}
+
+.img1-el-taller {
+  grid-area: img1-el-taller;
+}
+
+.mapa-taller {
+  width: 100%;
+  height: 100%;
+}
+
+.img2-el-taller {
+  grid-area: img2-el-taller;
+}
+
+.diagonal-taller {
+  width: 100%;
+  height: 100%;
+}
+
+.img3-el-taller {
+  grid-area: img3-el-taller;
+}
+
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  .section-1-eltaller {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem repeat(3, 40rem);
+    grid-template-areas: "h2-el-taller" "p1-el-taller" "p2-el-taller" "p3-el-taller";
+    grid-row-gap: 4rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .h2-el-taller {
+    font-size: 2.3rem;
+    text-shadow: 0.1rem 0.1rem black;
+    grid-area: h2-el-taller;
+  }
+
+  .p-section-el-taller {
+    font-size: 1.8rem;
+    text-shadow: 0.1rem 0.1rem black;
+    text-align: center;
+  }
+
+  .p1-el-taller {
+    background: url(../archivos-multimedia/el-taller-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4.5rem;
+  }
+
+  .p2-el-taller {
+    background: url(../archivos-multimedia/ubicacion-taller.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4.5rem;
+  }
+
+  .p3-el-taller {
+    background: url(../archivos-multimedia/cartel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4.5rem;
+  }
+
+  .frente-taller {
+    display: none;
+  }
+
+  .mapa-taller {
+    display: none;
+  }
+
+  .diagonal-taller {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section-1-eltaller {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8rem repeat(3, 40rem);
+    grid-template-areas: "h2-el-taller" "p1-el-taller" "p2-el-taller" "p3-el-taller";
+    grid-row-gap: 4rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .h2-el-taller {
+    font-size: 2.3rem;
+    text-shadow: 0.1rem 0.1rem black;
+    grid-area: h2-el-taller;
+  }
+
+  .p-section-el-taller {
+    font-size: 1.8rem;
+    text-shadow: 0.1rem 0.1rem black;
+    text-align: center;
+  }
+
+  .p1-el-taller {
+    background: url(../archivos-multimedia/el-taller-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4.5rem;
+  }
+
+  .p2-el-taller {
+    background: url(../archivos-multimedia/ubicacion-taller.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4.5rem;
+  }
+
+  .p3-el-taller {
+    background: url(../archivos-multimedia/cartel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4rem;
+  }
+
+  .frente-taller {
+    display: none;
+  }
+
+  .mapa-taller {
+    display: none;
+  }
+
+  .diagonal-taller {
+    display: none;
+  }
+}
+/* Sección 1 de SERVICIOS */
+.section-1-servicios {
+  grid-area: section-1-servicios;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(10, 0.5fr);
+  grid-template-areas: "h2 h2 h2" "mecanica-general frenos tren" "iconmg iconfre icontre" "servmg servfre servtre" "encendido inyeccion electronica" "iconen iconiny iconele" "serven serviny servele" "diagnostico service motor" "icondia iconser iconmot" "servdia servser servmot";
+  grid-row-gap: 30px;
+  align-items: center;
+  justify-items: center;
+}
+
+.h2-servicios {
+  padding: 5px;
+  font-size: 45px;
+  text-decoration: underline;
+  color: white;
+  text-align: center;
+  text-shadow: 1.5px 1.5px black;
+  background-color: #1a9dd1;
+  grid-area: h2;
+}
+
+.h3-section-servicios {
+  padding: 5px;
+  font-size: 25px;
+  text-decoration: underline;
+  color: white;
+  text-shadow: 1.5px 1.5px black;
+  background-color: #1a9dd1;
+}
+
+.mecanica-general {
+  grid-area: mecanica-general;
+}
+
+.iconmg {
+  grid-area: iconmg;
+}
+
+.servmg {
+  grid-area: servmg;
+}
+
+.frenos {
+  grid-area: frenos;
+}
+
+.iconfre {
+  grid-area: iconfre;
+}
+
+.servfre {
+  grid-area: servfre;
+}
+
+.tren {
+  grid-area: tren;
+}
+
+.icontre {
+  grid-area: icontre;
+}
+
+.servtre {
+  grid-area: servtre;
+}
+
+.encendido {
+  grid-area: encendido;
+}
+
+.iconen {
+  grid-area: iconen;
+}
+
+.serven {
+  grid-area: serven;
+}
+
+.inyeccion {
+  grid-area: inyeccion;
+}
+
+.iconiny {
+  grid-area: iconiny;
+}
+
+.serviny {
+  grid-area: serviny;
+}
+
+.electronica {
+  grid-area: electronica;
+}
+
+.iconele {
+  grid-area: iconele;
+}
+
+.servele {
+  grid-area: servele;
+}
+
+.diagnostico {
+  grid-area: diagnostico;
+}
+
+.icondia {
+  grid-area: icondia;
+}
+
+.servdia {
+  grid-area: servdia;
+}
+
+.service {
+  grid-area: service;
+}
+
+.iconser {
+  grid-area: iconser;
+}
+
+.servser {
+  grid-area: servser;
+}
+
+.motor {
+  grid-area: motor;
+}
+
+.iconmot {
+  grid-area: iconmot;
+}
+
+.servmot {
+  grid-area: servmot;
+}
+
+.ul-section-servicios {
+  padding: 5px;
+  font-size: 23px;
+  color: white;
+  text-shadow: 1.5px 1.5px black;
+  background-color: #1a9dd1;
+  list-style: none;
+  text-align: center;
+}
+
+.iconos-servicios {
+  width: 80px;
+  background-color: #1a9dd1;
+}
+
+.iconos-servicios:hover {
+  transform: scale(1.3);
+  transition: all 1.2s;
+}
+
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  .section-1-servicios {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(28, 0.5fr);
+    grid-template-areas: "h2" "mecanica-general" "iconmg" "servmg" "frenos" "iconfre" "servfre" "tren" "icontre" "servtre" "encendido" "iconen" "serven" "inyeccion" "iconiny" "serviny" "electronica" "iconele" "servele" "diagnostico" "icondia" "servdia" "service" "iconser" "servser" "motor" "iconmot" "servmot";
+    grid-row-gap: 1rem;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .h2-servicios {
+    font-size: 2.3rem;
+    text-shadow: 0.1rem 0.1rem black;
+    background-color: #1a9dd1;
+  }
+
+  .h3-section-servicios {
+    font-size: 1.8rem;
+    text-shadow: 0.1rem 0.1rem black;
+    background-color: #1a9dd1;
+  }
+
+  .iconos-servicios {
+    width: 6rem;
+  }
+
+  .ul-section-servicios {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section-1-servicios {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(28, 0.5fr);
+    grid-template-areas: "h2" "mecanica-general" "iconmg" "servmg" "frenos" "iconfre" "servfre" "tren" "icontre" "servtre" "encendido" "iconen" "serven" "inyeccion" "iconiny" "serviny" "electronica" "iconele" "servele" "diagnostico" "icondia" "servdia" "service" "iconser" "servser" "motor" "iconmot" "servmot";
+    grid-row-gap: 1rem;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .h2-servicios {
+    font-size: 2.3rem;
+    text-shadow: 0.1rem 0.1rem black;
+    background-color: #1a9dd1;
+  }
+
+  .h3-section-servicios {
+    font-size: 1.8rem;
+    text-shadow: 0.1rem 0.1rem black;
+    background-color: #1a9dd1;
+  }
+
+  .iconos-servicios {
+    width: 6rem;
+  }
+
+  .ul-section-servicios {
+    font-size: 1.6rem;
+  }
+}
+/* Sección 1 de Promociones */
+.section-1-promociones {
+  grid-area: section-1-promociones;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 145px repeat(3, 0.5fr);
+  grid-template-areas: "h2-promociones h2-promociones" "p1-promo tarjetas-servicios" "billetes p2-promo" "p3-promo mercado-pago";
+  align-items: center;
+}
+
+.h2-promociones {
+  padding: 5px;
+  font-size: 45px;
+  text-decoration: underline;
+  color: white;
+  text-align: center;
+  text-shadow: 1.5px 1.5px black;
+  background-color: #1a9dd1;
+  grid-area: h2-promociones;
+}
+
+.p-section-promociones {
+  padding: 5px;
+  font-size: 40px;
+  color: white;
+  text-shadow: 1.5px 1.5px black;
+  background-color: #1a9dd1;
+  text-align: center;
+}
+
+.p1-promo {
+  grid-area: p1-promo;
+}
+
+.p2-promo {
+  grid-area: p2-promo;
+}
+
+.p3-promo {
+  grid-area: p3-promo;
+}
+
+.tarjetas-servicios {
+  width: 100%;
+  height: 100%;
+  grid-area: tarjetas-servicios;
+}
+
+.billetes {
+  width: 100%;
+  height: 100%;
+  grid-area: billetes;
+}
+
+.mercado-pago {
+  width: 100%;
+  height: 100%;
+  grid-area: mercado-pago;
+}
+
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  .section-1-promociones {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6rem repeat(3, 0.5fr);
+    grid-template-areas: "h2-promociones" "p1-promo" "p2-promo" "p3-promo";
+    grid-row-gap: 1rem;
+    align-items: center;
+  }
+
+  .h2-promociones {
+    font-size: 2.3rem;
+    text-shadow: 0.1rem 0.1rem black;
+    grid-area: h2-promociones;
+  }
+
+  .p-section-promociones {
+    font-size: 1.6rem;
+    text-shadow: 0.1rem 0.1rem black;
+    text-align: center;
+  }
+
+  .p1-promo {
+    background: url(../archivos-multimedia/tarjetas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4rem;
+    grid-area: p1-promo;
+    padding: 5rem 5rem;
+  }
+
+  .p2-promo {
+    background: url(../archivos-multimedia/billetes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4rem;
+    grid-area: p2-promo;
+    padding: 5rem 5rem;
+  }
+
+  .p3-promo {
+    background: url(../archivos-multimedia/mercado-pago.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4rem;
+    grid-area: p3-promo;
+    padding: 5rem 5rem;
+  }
+
+  .tarjetas-servicios {
+    display: none;
+  }
+
+  .billetes {
+    display: none;
+  }
+
+  .mercado-pago {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section-1-promociones {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6rem repeat(3, 0.5fr);
+    grid-template-areas: "h2-promociones" "p1-promo" "p2-promo" "p3-promo";
+    grid-row-gap: 1rem;
+    align-items: center;
+  }
+
+  .h2-promociones {
+    font-size: 2.3rem;
+    text-shadow: 0.1rem 0.1rem black;
+    grid-area: h2-promociones;
+  }
+
+  .p-section-promociones {
+    font-size: 1.6rem;
+    text-shadow: 0.1rem 0.1rem black;
+    text-align: center;
+  }
+
+  .p1-promo {
+    background: url(../archivos-multimedia/tarjetas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4rem;
+    grid-area: p1-promo;
+    padding: 5rem 5rem;
+  }
+
+  .p2-promo {
+    background: url(../archivos-multimedia/billetes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4rem;
+    grid-area: p2-promo;
+    padding: 5rem 5rem;
+  }
+
+  .p3-promo {
+    background: url(../archivos-multimedia/mercado-pago.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4rem;
+    grid-area: p3-promo;
+    padding: 5rem 5rem;
+  }
+
+  .tarjetas-servicios {
+    display: none;
+  }
+
+  .billetes {
+    display: none;
+  }
+
+  .mercado-pago {
+    display: none;
+  }
+}
+/* Footer */
+footer {
+  grid-area: footer;
+  background-color: gray;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(7, 40px);
+  grid-template-areas: "datos ubicacion nuestros" "celular mapa lunes" "mail mapa siete" ". mapa ." "fbig mapa sabado" ". mapa siete2" "copyright . jordan";
+  align-items: center;
+  justify-items: center;
+}
+
+.datos {
+  grid-area: datos;
+}
+
+.celular {
+  grid-area: celular;
+}
+
+.mail {
+  grid-area: mail;
+}
+
+.fbig {
+  grid-area: fbig;
+  justify-self: space-around;
+}
+
+.ubicacion {
+  grid-area: ubicacion;
+}
+
+.mapa {
+  grid-area: mapa;
+  width: 100%;
+  height: 100%;
+}
+
+.nuestros {
+  grid-area: nuestros;
+}
+
+.siete {
+  grid-area: siete;
+}
+
+.lunes {
+  grid-area: lunes;
+}
+
+.sabado {
+  grid-area: sabado;
+}
+
+.siete2 {
+  grid-area: siete2;
+}
+
+.copyright {
+  grid-area: copyright;
+}
+
+.jordan {
+  grid-area: jordan;
+}
+
+.h4-footer {
+  padding: 5px;
+  font-size: 20px;
+  text-decoration: underline;
+  color: white;
+  text-shadow: 1.5px 1.5px black;
+  background-color: gray;
+}
+
+.p-footer {
+  padding: 5px;
+  font-size: 18px;
+  color: white;
+  text-shadow: 1.5px 1.5px black;
+  background-color: gray;
+}
+
+.logo-wpp {
+  width: 80px;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  z-index: 3;
+}
+
+.link-instagram {
+  text-decoration: none;
+}
+
+.logo-instagram {
+  width: 70px;
+  background-color: gray;
+}
+
+.logo-facebook {
+  width: 70px;
+  background-color: gray;
+}
+
+h5 {
+  color: white;
+  text-shadow: 1px 1px black;
+  text-align: center;
+  font-size: 15px;
+  background-color: gray;
+}
+
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(16, 4.3rem);
+    grid-template-areas: "datos" "celular" "mail" "fbig" "ubicacion" "mapa" "mapa" "mapa" "mapa" "nuestros" "lunes" "siete" "sabado" "siete2" "copyright" "jordan";
+    align-items: center;
+    justify-items: center;
+  }
+
+  .mapa {
+    width: 100%;
+    height: 100%;
+  }
+
+  .h4-footer {
+    font-size: 1.5rem;
+    text-shadow: 0.1rem 0.1rem black;
+  }
+
+  .p-footer {
+    font-size: 1.5rem;
+    text-shadow: 0.1rem 0.1rem black;
+  }
+
+  .logo-wpp {
+    width: 12%;
+    position: fixed;
+    right: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .logo-instagram {
+    width: 3rem;
+  }
+
+  .logo-facebook {
+    width: 3rem;
+  }
+
+  h5 {
+    text-shadow: 0.1rem 0.1rem black;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(16, 4.3rem);
+    grid-template-areas: "datos" "celular" "mail" "fbig" "ubicacion" "mapa" "mapa" "mapa" "mapa" "nuestros" "lunes" "siete" "sabado" "siete2" "copyright" "jordan";
+    align-items: center;
+    justify-items: center;
+  }
+
+  .mapa {
+    width: 100%;
+    height: 100%;
+  }
+
+  .h4-footer {
+    font-size: 1.5rem;
+    text-shadow: 0.1rem 0.1rem black;
+  }
+
+  .p-footer {
+    font-size: 1.5rem;
+    text-shadow: 0.1rem 0.1rem black;
+  }
+
+  .logo-wpp {
+    width: 12%;
+    position: fixed;
+    right: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .logo-instagram {
+    width: 3rem;
+  }
+
+  .logo-facebook {
+    width: 3rem;
+  }
+
+  h5 {
+    text-shadow: 0.1rem 0.1rem black;
+    font-size: 1.2rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

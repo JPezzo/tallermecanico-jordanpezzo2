@@ -1,0 +1,252 @@
+/* Footer */
+
+@import "../base/variables";
+
+footer {
+    grid-area: footer;
+    background-color: gray;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 40px);
+    grid-template-areas: 
+    "datos ubicacion nuestros"
+    "celular mapa lunes"
+    "mail mapa siete"
+    ". mapa ."
+    "fbig mapa sabado"
+    ". mapa siete2"
+    "copyright . jordan";
+    align-items: center;
+    justify-items: center;
+}
+
+.datos {
+    grid-area: datos;
+}
+
+.celular {
+    grid-area: celular;
+}
+
+.mail {
+    grid-area: mail;
+}
+
+.fbig {
+    grid-area: fbig;
+    justify-self: space-around;
+}
+
+.ubicacion {
+    grid-area: ubicacion;
+}
+
+.mapa {
+    grid-area: mapa;
+    width: 100%;
+    height: 100%;
+}
+
+.nuestros {
+    grid-area: nuestros;
+}
+
+.siete {
+    grid-area: siete;
+}
+
+.lunes {
+    grid-area: lunes;
+}
+
+.sabado {
+    grid-area: sabado;
+}
+
+.siete2 {
+    grid-area: siete2;
+}
+
+.copyright {
+    grid-area: copyright;
+}
+
+.jordan {
+    grid-area: jordan;
+}
+
+.h4-footer {
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+    text-shadow: $text-shadow-general;
+    background-color: gray;
+}
+
+.p-footer {
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    text-shadow: $text-shadow-general;
+    background-color: gray;
+}
+
+.logo-wpp {
+    width: 80px;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 3;
+}
+
+.link-instagram {
+    text-decoration: none;
+}
+
+.logo-instagram {
+    width: 70px;
+    background-color: gray;
+}
+
+.logo-facebook {
+    width: 70px;
+    background-color: gray;
+}
+
+h5 {
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-size: 15px;
+    background-color: gray;
+}
+
+@media screen and (min-width: 481px) and (max-width: 980px) {
+    
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(16, 4.3rem);
+        grid-template-areas: 
+        "datos"
+        "celular"
+        "mail"
+        "fbig"
+        "ubicacion"
+        "mapa"
+        "mapa"
+        "mapa"
+        "mapa"
+        "nuestros"
+        "lunes"
+        "siete"
+        "sabado"
+        "siete2"
+        "copyright"
+        "jordan";
+        align-items: center;
+        justify-items: center;
+    }
+    
+    
+    .mapa {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .h4-footer {
+        font-size: 1.5rem;
+        text-shadow: 0.1rem 0.1rem black;
+    }
+    
+    .p-footer {
+        font-size: 1.5rem;
+        text-shadow: 0.1rem 0.1rem black;
+    }
+    
+    .logo-wpp {
+        width: 12%;
+        position: fixed;
+        right: 0.5rem;
+        bottom: 0.5rem;
+    }
+    
+    .logo-instagram {
+        width: 3rem;
+    }
+    
+    .logo-facebook {
+        width: 3rem;
+    }
+    
+    h5 {
+        text-shadow: 0.1rem 0.1rem black;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(16, 4.3rem);
+        grid-template-areas: 
+        "datos"
+        "celular"
+        "mail"
+        "fbig"
+        "ubicacion"
+        "mapa"
+        "mapa"
+        "mapa"
+        "mapa"
+        "nuestros"
+        "lunes"
+        "siete"
+        "sabado"
+        "siete2"
+        "copyright"
+        "jordan";
+        align-items: center;
+        justify-items: center;
+    }
+    
+    
+    .mapa {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .h4-footer {
+        font-size: 1.5rem;
+        text-shadow: 0.1rem 0.1rem black;
+    }
+    
+    .p-footer {
+        font-size: 1.5rem;
+        text-shadow: 0.1rem 0.1rem black;
+    }
+    
+    .logo-wpp {
+        width: 12%;
+        position: fixed;
+        right: 0.5rem;
+        bottom: 0.5rem;
+    }
+    
+    .logo-instagram {
+        width: 3rem;
+    }
+    
+    .logo-facebook {
+        width: 3rem;
+    }
+    
+    h5 {
+        text-shadow: 0.1rem 0.1rem black;
+        font-size: 1.2rem;
+    }
+}

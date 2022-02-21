@@ -1,0 +1,106 @@
+/* Sección 1 del INDEX */
+
+@import "../base/variables";
+
+.section-1-index {
+    grid-area: section-1;
+    width: 100%;
+}
+
+.section-1-index > img {
+    width: 99.99%;
+}
+
+h5.recomendaciones {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: hsla(199, 93%, 71%, 80%);
+    font-size: 60px;
+    color: white;
+    text-shadow: $text-shadow-general;
+}
+
+button.button-section1-servicios {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: hsla(199, 93%, 71%, 80%);
+    text-shadow: $text-shadow-general;
+    border: 5px outset cadetblue;
+    box-shadow: 1.5px 1.5px rgb(0, 0, 0);
+}
+
+a.a-section-1-servicios {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+a.a-section-1-servicios:hover {
+    color: rgba(22, 104, 199, 0.8);
+}
+
+button.button-section1-servicios:hover {
+    animation: moveButton 3s;
+}
+
+@keyframes moveButton {
+  0%{
+    transform: translateY(0);
+  }
+  10%{
+    transform: translateY(-2px);
+  }
+  20%{
+    transform: translateY(2px);
+  }
+  30%{
+    transform: translateY(-2px);
+  }
+  40%{
+    transform: translateY(2px);
+  }
+  50%{
+    transform: translateY(-2px);
+  }
+  60%{
+    transform: translateY(2px);
+  }
+  70%{
+    transform: translateY(-2px);
+  }
+  80%{
+    transform: translateY(1.2px);
+  }
+  90%{
+    transform: translateY(-1.2px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 980px) {
+
+  h5.recomendaciones {
+    background-color: hsla(199, 93%, 71%, 80%);
+    font-size: 2.3rem;
+  }
+
+  a.a-section-1-servicios {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  h5.recomendaciones {
+    background-color: hsla(199, 93%, 71%, 80%);
+    font-size: 2.3rem;
+  }
+
+  a.a-section-1-servicios {
+    font-size: 1.8rem;
+  }
+}

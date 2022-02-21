@@ -1,0 +1,200 @@
+/* Sección 1 de EL TALLER */
+
+@import "../base/variables";
+
+.section-1-eltaller {
+    grid-area: section-1-eltaller;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 145px repeat(3, 1fr);
+    grid-template-areas: 
+    "h2-el-taller h2-el-taller"
+    "p1-el-taller img1-el-taller"
+    "img2-el-taller p2-el-taller"
+    "p3-el-taller img3-el-taller";
+    align-items: center;
+}
+
+.h2-el-taller {
+    padding: 5px;
+    font-size: 45px;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+    text-shadow: $text-shadow-general;
+    background-color: $bg-color-general;
+    grid-area: h2-el-taller;
+}
+
+.p-section-el-taller {
+    padding: 5px;
+    font-size: 40px;
+    color: white;
+    text-shadow: $text-shadow-general;
+    background-color: $bg-color-general;
+    text-align: center;
+}
+
+.p1-el-taller {
+    grid-area: p1-el-taller;
+}
+
+.p2-el-taller {
+    grid-area: p2-el-taller;
+}
+
+.p3-el-taller {
+    grid-area: p3-el-taller;
+}
+
+.frente-taller {
+    width: 100%;
+    height: 100%;
+}
+
+.img1-el-taller {
+    grid-area: img1-el-taller;
+}
+
+.mapa-taller {
+    width: 100%;
+    height: 100%;
+}
+
+.img2-el-taller {
+    grid-area: img2-el-taller;
+}
+
+.diagonal-taller {
+    width: 100%;
+    height: 100%;
+}
+
+.img3-el-taller {
+    grid-area: img3-el-taller;
+}
+
+@media screen and (min-width: 481px) and (max-width: 980px)  {
+    
+    .section-1-eltaller {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5rem repeat(3, 40rem);
+        grid-template-areas: 
+        "h2-el-taller"
+        "p1-el-taller"
+        "p2-el-taller"
+        "p3-el-taller";
+        grid-row-gap: 4rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .h2-el-taller {
+        font-size: 2.3rem;
+        text-shadow: 0.1rem 0.1rem black;
+        grid-area: h2-el-taller;
+    }
+    
+    .p-section-el-taller {
+        font-size: 1.8rem;
+        text-shadow: 0.1rem 0.1rem black;
+        text-align: center;
+    }
+
+    .p1-el-taller {
+        background: url(../archivos-multimedia/el-taller-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        line-height: 4.5rem;
+    }
+
+    .p2-el-taller {
+        background: url(../archivos-multimedia/ubicacion-taller.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        line-height: 4.5rem;
+    }
+
+    .p3-el-taller {
+        background: url(../archivos-multimedia/cartel.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        line-height: 4.5rem;
+    }
+    
+    .frente-taller {
+        display: none;
+    }
+    
+    .mapa-taller {
+        display: none;
+    }
+    
+    .diagonal-taller {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px)  {
+    
+    .section-1-eltaller {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 8rem repeat(3, 40rem);
+        grid-template-areas: 
+        "h2-el-taller"
+        "p1-el-taller"
+        "p2-el-taller"
+        "p3-el-taller";
+        grid-row-gap: 4rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .h2-el-taller {
+        font-size: 2.3rem;
+        text-shadow: 0.1rem 0.1rem black;
+        grid-area: h2-el-taller;
+    }
+    
+    .p-section-el-taller {
+        font-size: 1.8rem;
+        text-shadow: 0.1rem 0.1rem black;
+        text-align: center;
+    }
+
+    .p1-el-taller {
+        background: url(../archivos-multimedia/el-taller-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        line-height: 4.5rem;
+    }
+
+    .p2-el-taller {
+        background: url(../archivos-multimedia/ubicacion-taller.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        line-height: 4.5rem;
+    }
+
+    .p3-el-taller {
+        background: url(../archivos-multimedia/cartel.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        line-height: 4rem;
+    }
+    
+    .frente-taller {
+        display: none;
+    }
+    
+    .mapa-taller {
+        display: none;
+    }
+    
+    .diagonal-taller {
+        display: none;
+    }
+}

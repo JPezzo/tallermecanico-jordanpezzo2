@@ -1,0 +1,19 @@
+{
+  "name": "tallermecanico-jordanpezzo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPezzo/tallermecanico-jordanpezzo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JPezzo/tallermecanico-jordanpezzo/issues"
+  },
+  "homepage": "https://github.com/JPezzo/tallermecanico-jordanpezzo#readme",
+  "description": ""
+}
