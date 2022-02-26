@@ -10,7 +10,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(10, 0.5fr);
     grid-template-areas: 
-    "h2 h2 h2"
+    "h1 h1 h1"
     "mecanica-general frenos tren"
     "iconmg iconfre icontre"
     "servmg servfre servtre"
@@ -25,7 +25,7 @@
     justify-items: center;
 }
 
-.h2-servicios {
+.h1-servicios {
     padding: 5px;
     font-size: 45px;
     text-decoration: underline;
@@ -33,10 +33,10 @@
     text-align: center;
     text-shadow: $text-shadow-general;
     background-color: $bg-color-general;
-    grid-area: h2;
+    grid-area: h1;
 }
 
-.h3-section-servicios {
+.h2-section-servicios {
     padding: 5px;
     font-size: 25px;
     text-decoration: underline;
@@ -181,7 +181,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(28, 0.5fr);
         grid-template-areas: 
-        "h2"
+        "h1"
         "mecanica-general"
         "iconmg"
         "servmg"
@@ -214,13 +214,13 @@
         justify-items: center;
     }
     
-    .h2-servicios {
+    .h1-servicios {
         font-size: 2.3rem;
         text-shadow: 0.1rem 0.1rem black;        
         background-color: hsla(197, 78%, 46%, 100%);
     }
     
-    .h3-section-servicios {
+    .h2-section-servicios {
         font-size: 1.8rem;
         text-shadow: 0.1rem 0.1rem black;        
         background-color: hsla(197, 78%, 46%, 100%);
@@ -242,7 +242,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(28, 0.5fr);
         grid-template-areas: 
-        "h2"
+        "h1"
         "mecanica-general"
         "iconmg"
         "servmg"
@@ -275,13 +275,13 @@
         justify-items: center;
     }
     
-    .h2-servicios {
+    .h1-servicios {
         font-size: 2.3rem;
         text-shadow: 0.1rem 0.1rem black;        
         background-color: hsla(197, 78%, 46%, 100%);
     }
     
-    .h3-section-servicios {
+    .h2-section-servicios {
         font-size: 1.8rem;
         text-shadow: 0.1rem 0.1rem black;        
         background-color: hsla(197, 78%, 46%, 100%);

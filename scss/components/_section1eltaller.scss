@@ -10,20 +10,20 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 145px repeat(3, 1fr);
     grid-template-areas: 
-    "h2-el-taller h2-el-taller"
+    "h1-el-taller h1-el-taller"
     "p1-el-taller img1-el-taller"
     "img2-el-taller p2-el-taller"
     "p3-el-taller img3-el-taller";
     align-items: center;
 }
 
-.h2-el-taller {
+.h1-el-taller {
     padding: 5px;
     text-decoration: underline;
     text-align: center;
     text-shadow: $text-shadow-general;
     background-color: $bg-color-general;
-    grid-area: h2-el-taller;
+    grid-area: h1-el-taller;
     @include properties(white, 45px);
 }
 
@@ -81,7 +81,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: 5rem repeat(3, 40rem);
         grid-template-areas: 
-        "h2-el-taller"
+        "h1-el-taller"
         "p1-el-taller"
         "p2-el-taller"
         "p3-el-taller";
@@ -90,10 +90,10 @@
         justify-content: center;
     }
     
-    .h2-el-taller {
+    .h1-el-taller {
         font-size: 2.3rem;
         text-shadow: 0.1rem 0.1rem black;
-        grid-area: h2-el-taller;
+        grid-area: h1-el-taller;
     }
     
     .p-section-el-taller {
@@ -143,7 +143,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: 8rem repeat(3, 40rem);
         grid-template-areas: 
-        "h2-el-taller"
+        "h1-el-taller"
         "p1-el-taller"
         "p2-el-taller"
         "p3-el-taller";
@@ -152,10 +152,10 @@
         justify-content: center;
     }
     
-    .h2-el-taller {
+    .h1-el-taller {
         font-size: 2.3rem;
         text-shadow: 0.1rem 0.1rem black;
-        grid-area: h2-el-taller;
+        grid-area: h1-el-taller;
     }
     
     .p-section-el-taller {

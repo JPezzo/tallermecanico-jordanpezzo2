@@ -147,7 +147,7 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
   width: 99.99%;
 }
 
-h5.recomendaciones {
+h1.recomendaciones, h2.recomendaciones {
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: rgba(112, 206, 250, 0.8);
@@ -217,7 +217,7 @@ button.button-section1-servicios:hover {
   }
 }
 @media screen and (min-width: 481px) and (max-width: 980px) {
-  h5.recomendaciones {
+  h1.recomendaciones, h2.recomendaciones {
     background-color: rgba(112, 206, 250, 0.8);
     font-size: 2.3rem;
   }
@@ -227,7 +227,7 @@ button.button-section1-servicios:hover {
   }
 }
 @media screen and (max-width: 480px) {
-  h5.recomendaciones {
+  h1.recomendaciones, h2.recomendaciones {
     background-color: rgba(112, 206, 250, 0.8);
     font-size: 2.3rem;
   }
@@ -385,17 +385,17 @@ button.button-section1-servicios:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 145px repeat(3, 1fr);
-  grid-template-areas: "h2-el-taller h2-el-taller" "p1-el-taller img1-el-taller" "img2-el-taller p2-el-taller" "p3-el-taller img3-el-taller";
+  grid-template-areas: "h1-el-taller h1-el-taller" "p1-el-taller img1-el-taller" "img2-el-taller p2-el-taller" "p3-el-taller img3-el-taller";
   align-items: center;
 }
 
-.h2-el-taller {
+.h1-el-taller {
   padding: 5px;
   text-decoration: underline;
   text-align: center;
   text-shadow: 1.5px 1.5px black;
   background-color: #1a9dd1;
-  grid-area: h2-el-taller;
+  grid-area: h1-el-taller;
   color: white;
   font-size: 45px;
 }
@@ -453,16 +453,16 @@ button.button-section1-servicios:hover {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 5rem repeat(3, 40rem);
-    grid-template-areas: "h2-el-taller" "p1-el-taller" "p2-el-taller" "p3-el-taller";
+    grid-template-areas: "h1-el-taller" "p1-el-taller" "p2-el-taller" "p3-el-taller";
     grid-row-gap: 4rem;
     align-items: center;
     justify-content: center;
   }
 
-  .h2-el-taller {
+  .h1-el-taller {
     font-size: 2.3rem;
     text-shadow: 0.1rem 0.1rem black;
-    grid-area: h2-el-taller;
+    grid-area: h1-el-taller;
   }
 
   .p-section-el-taller {
@@ -509,16 +509,16 @@ button.button-section1-servicios:hover {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 8rem repeat(3, 40rem);
-    grid-template-areas: "h2-el-taller" "p1-el-taller" "p2-el-taller" "p3-el-taller";
+    grid-template-areas: "h1-el-taller" "p1-el-taller" "p2-el-taller" "p3-el-taller";
     grid-row-gap: 4rem;
     align-items: center;
     justify-content: center;
   }
 
-  .h2-el-taller {
+  .h1-el-taller {
     font-size: 2.3rem;
     text-shadow: 0.1rem 0.1rem black;
-    grid-area: h2-el-taller;
+    grid-area: h1-el-taller;
   }
 
   .p-section-el-taller {
@@ -567,13 +567,13 @@ button.button-section1-servicios:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(10, 0.5fr);
-  grid-template-areas: "h2 h2 h2" "mecanica-general frenos tren" "iconmg iconfre icontre" "servmg servfre servtre" "encendido inyeccion electronica" "iconen iconiny iconele" "serven serviny servele" "diagnostico service motor" "icondia iconser iconmot" "servdia servser servmot";
+  grid-template-areas: "h1 h1 h1" "mecanica-general frenos tren" "iconmg iconfre icontre" "servmg servfre servtre" "encendido inyeccion electronica" "iconen iconiny iconele" "serven serviny servele" "diagnostico service motor" "icondia iconser iconmot" "servdia servser servmot";
   grid-row-gap: 30px;
   align-items: center;
   justify-items: center;
 }
 
-.h2-servicios {
+.h1-servicios {
   padding: 5px;
   font-size: 45px;
   text-decoration: underline;
@@ -581,10 +581,10 @@ button.button-section1-servicios:hover {
   text-align: center;
   text-shadow: 1.5px 1.5px black;
   background-color: #1a9dd1;
-  grid-area: h2;
+  grid-area: h1;
 }
 
-.h3-section-servicios {
+.h2-section-servicios {
   padding: 5px;
   font-size: 25px;
   text-decoration: underline;
@@ -726,19 +726,19 @@ button.button-section1-servicios:hover {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(28, 0.5fr);
-    grid-template-areas: "h2" "mecanica-general" "iconmg" "servmg" "frenos" "iconfre" "servfre" "tren" "icontre" "servtre" "encendido" "iconen" "serven" "inyeccion" "iconiny" "serviny" "electronica" "iconele" "servele" "diagnostico" "icondia" "servdia" "service" "iconser" "servser" "motor" "iconmot" "servmot";
+    grid-template-areas: "h1" "mecanica-general" "iconmg" "servmg" "frenos" "iconfre" "servfre" "tren" "icontre" "servtre" "encendido" "iconen" "serven" "inyeccion" "iconiny" "serviny" "electronica" "iconele" "servele" "diagnostico" "icondia" "servdia" "service" "iconser" "servser" "motor" "iconmot" "servmot";
     grid-row-gap: 1rem;
     align-items: center;
     justify-items: center;
   }
 
-  .h2-servicios {
+  .h1-servicios {
     font-size: 2.3rem;
     text-shadow: 0.1rem 0.1rem black;
     background-color: #1a9dd1;
   }
 
-  .h3-section-servicios {
+  .h2-section-servicios {
     font-size: 1.8rem;
     text-shadow: 0.1rem 0.1rem black;
     background-color: #1a9dd1;
@@ -757,19 +757,19 @@ button.button-section1-servicios:hover {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(28, 0.5fr);
-    grid-template-areas: "h2" "mecanica-general" "iconmg" "servmg" "frenos" "iconfre" "servfre" "tren" "icontre" "servtre" "encendido" "iconen" "serven" "inyeccion" "iconiny" "serviny" "electronica" "iconele" "servele" "diagnostico" "icondia" "servdia" "service" "iconser" "servser" "motor" "iconmot" "servmot";
+    grid-template-areas: "h1" "mecanica-general" "iconmg" "servmg" "frenos" "iconfre" "servfre" "tren" "icontre" "servtre" "encendido" "iconen" "serven" "inyeccion" "iconiny" "serviny" "electronica" "iconele" "servele" "diagnostico" "icondia" "servdia" "service" "iconser" "servser" "motor" "iconmot" "servmot";
     grid-row-gap: 1rem;
     align-items: center;
     justify-items: center;
   }
 
-  .h2-servicios {
+  .h1-servicios {
     font-size: 2.3rem;
     text-shadow: 0.1rem 0.1rem black;
     background-color: #1a9dd1;
   }
 
-  .h3-section-servicios {
+  .h2-section-servicios {
     font-size: 1.8rem;
     text-shadow: 0.1rem 0.1rem black;
     background-color: #1a9dd1;
@@ -789,11 +789,11 @@ button.button-section1-servicios:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 145px repeat(3, 0.5fr);
-  grid-template-areas: "h2-promociones h2-promociones" "p1-promo tarjetas-servicios" "billetes p2-promo" "p3-promo mercado-pago";
+  grid-template-areas: "h1-promociones h1-promociones" "p1-promo tarjetas-servicios" "billetes p2-promo" "p3-promo mercado-pago";
   align-items: center;
 }
 
-.h2-promociones {
+.h1-promociones {
   padding: 5px;
   font-size: 45px;
   text-decoration: underline;
@@ -801,7 +801,7 @@ button.button-section1-servicios:hover {
   text-align: center;
   text-shadow: 1.5px 1.5px black;
   background-color: #1a9dd1;
-  grid-area: h2-promociones;
+  grid-area: h1-promociones;
 }
 
 .p-section-promociones {
@@ -848,15 +848,15 @@ button.button-section1-servicios:hover {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 6rem repeat(3, 0.5fr);
-    grid-template-areas: "h2-promociones" "p1-promo" "p2-promo" "p3-promo";
+    grid-template-areas: "h1-promociones" "p1-promo" "p2-promo" "p3-promo";
     grid-row-gap: 1rem;
     align-items: center;
   }
 
-  .h2-promociones {
+  .h1-promociones {
     font-size: 2.3rem;
     text-shadow: 0.1rem 0.1rem black;
-    grid-area: h2-promociones;
+    grid-area: h1-promociones;
   }
 
   .p-section-promociones {
@@ -909,15 +909,15 @@ button.button-section1-servicios:hover {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 6rem repeat(3, 0.5fr);
-    grid-template-areas: "h2-promociones" "p1-promo" "p2-promo" "p3-promo";
+    grid-template-areas: "h1-promociones" "p1-promo" "p2-promo" "p3-promo";
     grid-row-gap: 1rem;
     align-items: center;
   }
 
-  .h2-promociones {
+  .h1-promociones {
     font-size: 2.3rem;
     text-shadow: 0.1rem 0.1rem black;
-    grid-area: h2-promociones;
+    grid-area: h1-promociones;
   }
 
   .p-section-promociones {

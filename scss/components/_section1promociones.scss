@@ -10,14 +10,14 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 145px repeat(3, 0.5fr);
     grid-template-areas: 
-    "h2-promociones h2-promociones"
+    "h1-promociones h1-promociones"
     "p1-promo tarjetas-servicios"
     "billetes p2-promo"
     "p3-promo mercado-pago";
     align-items: center;
 }
 
-.h2-promociones {
+.h1-promociones {
     padding: 5px;
     font-size: 45px;
     text-decoration: underline;
@@ -25,7 +25,7 @@
     text-align: map-get($promociones, text-align);
     text-shadow: $text-shadow-general;
     background-color: $bg-color-general;
-    grid-area: h2-promociones;
+    grid-area: h1-promociones;
 }
 
 .p-section-promociones {
@@ -74,7 +74,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: 6rem repeat(3, 0.5fr);
         grid-template-areas: 
-        "h2-promociones"
+        "h1-promociones"
         "p1-promo"
         "p2-promo"
         "p3-promo";
@@ -82,10 +82,10 @@
         align-items: center;
     }
     
-    .h2-promociones {
+    .h1-promociones {
         font-size: 2.3rem;
         text-shadow: 0.1rem 0.1rem black;
-        grid-area: h2-promociones;
+        grid-area: h1-promociones;
     }
     
     .p-section-promociones {
@@ -141,7 +141,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: 6rem repeat(3, 0.5fr);
         grid-template-areas: 
-        "h2-promociones"
+        "h1-promociones"
         "p1-promo"
         "p2-promo"
         "p3-promo";
@@ -149,10 +149,10 @@
         align-items: center;
     }
     
-    .h2-promociones {
+    .h1-promociones {
         font-size: 2.3rem;
         text-shadow: 0.1rem 0.1rem black;
-        grid-area: h2-promociones;
+        grid-area: h1-promociones;
     }
     
     .p-section-promociones {
