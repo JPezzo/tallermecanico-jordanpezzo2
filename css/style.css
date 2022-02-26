@@ -391,22 +391,22 @@ button.button-section1-servicios:hover {
 
 .h2-el-taller {
   padding: 5px;
-  font-size: 45px;
   text-decoration: underline;
-  color: white;
   text-align: center;
   text-shadow: 1.5px 1.5px black;
   background-color: #1a9dd1;
   grid-area: h2-el-taller;
+  color: white;
+  font-size: 45px;
 }
 
 .p-section-el-taller {
   padding: 5px;
-  font-size: 40px;
-  color: white;
   text-shadow: 1.5px 1.5px black;
   background-color: #1a9dd1;
   text-align: center;
+  color: white;
+  font-size: 40px;
 }
 
 .p1-el-taller {

@@ -1,6 +1,7 @@
 /* Sección 1 de EL TALLER */
 
 @import "../base/variables";
+@import "../base/mixins";
 
 .section-1-eltaller {
     grid-area: section-1-eltaller;
@@ -18,22 +19,20 @@
 
 .h2-el-taller {
     padding: 5px;
-    font-size: 45px;
     text-decoration: underline;
-    color: white;
     text-align: center;
     text-shadow: $text-shadow-general;
     background-color: $bg-color-general;
     grid-area: h2-el-taller;
+    @include properties(white, 45px);
 }
 
 .p-section-el-taller {
     padding: 5px;
-    font-size: 40px;
-    color: white;
     text-shadow: $text-shadow-general;
     background-color: $bg-color-general;
     text-align: center;
+    @include properties(white, 40px);
 }
 
 .p1-el-taller {
