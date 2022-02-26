@@ -966,6 +966,12 @@ button.button-section1-servicios:hover {
   }
 }
 /* Footer */
+.p-footer, .h4-footer {
+  padding: 5px;
+  color: white;
+  background-color: gray;
+}
+
 footer {
   grid-area: footer;
   background-color: gray;
@@ -1033,20 +1039,14 @@ footer {
 }
 
 .h4-footer {
-  padding: 5px;
   font-size: 20px;
   text-decoration: underline;
-  color: white;
   text-shadow: 1.5px 1.5px black;
-  background-color: gray;
 }
 
 .p-footer {
-  padding: 5px;
   font-size: 18px;
-  color: white;
   text-shadow: 1.5px 1.5px black;
-  background-color: gray;
 }
 
 .logo-wpp {

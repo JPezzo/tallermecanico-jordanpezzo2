@@ -1,6 +1,7 @@
 /* Footer */
 
 @import "../base/variables";
+@import "../base/extends";
 
 footer {
     grid-area: footer;
@@ -77,20 +78,16 @@ footer {
 }
 
 .h4-footer {
-    padding: 5px;
     font-size: 20px;
     text-decoration: underline;
-    color: white;
     text-shadow: $text-shadow-general;
-    background-color: gray;
+    @extend %footer-style;
 }
 
 .p-footer {
-    padding: 5px;
     font-size: 18px;
-    color: white;
     text-shadow: $text-shadow-general;
-    background-color: gray;
+    @extend %footer-style;
 }
 
 .logo-wpp {
