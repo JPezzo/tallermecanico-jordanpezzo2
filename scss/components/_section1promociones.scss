@@ -1,6 +1,7 @@
 /* Sección 1 de Promociones */
 
 @import "../base/variables";
+@import "../base/maps";
 
 .section-1-promociones {
     grid-area: section-1-promociones;
@@ -20,8 +21,8 @@
     padding: 5px;
     font-size: 45px;
     text-decoration: underline;
-    color: white;
-    text-align: center;
+    color: map-get($promociones, font-color);
+    text-align: map-get($promociones, text-align);
     text-shadow: $text-shadow-general;
     background-color: $bg-color-general;
     grid-area: h2-promociones;
@@ -30,10 +31,10 @@
 .p-section-promociones {
     padding: 5px;
     font-size: 40px;
-    color: white;
+    color: map-get($promociones, font-color);
     text-shadow: $text-shadow-general;
     background-color: $bg-color-general;
-    text-align: center;
+    text-align: map-get($promociones, text-align);
 }
 
 .p1-promo {
