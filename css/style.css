@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: #1a9dd1;
+  background-color: rgba(112, 206, 250, 0.8);
 }
 
 .grid-container-body-index {
@@ -71,8 +71,7 @@ header {
 .lista-horizontal {
   list-style: none;
   font-size: 0.8rem;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-left: 1.8rem;
 }
 
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-inicio {
@@ -117,12 +116,11 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
 }
 
 .logo-header {
-  width: 100%;
-  padding-left: 30px;
+  width: 80%;
 }
 
 .logo-header:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   transition: all 1s ease;
 }
 
@@ -152,7 +150,9 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
 /* Sección 1 del INDEX */
 .section-1-index {
   grid-area: section-1;
-  width: 100%;
+  width: 90%;
+  justify-self: center;
+  padding-top: 1.8rem;
 }
 
 .section-1-index > img {
@@ -163,7 +163,7 @@ h1.recomendaciones, h2.recomendaciones {
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: rgba(112, 206, 250, 0.8);
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   color: white;
   text-shadow: 1.5px 1.5px black;
 }
@@ -181,7 +181,7 @@ button.button-section1-servicios {
 
 a.a-section-1-servicios {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
 }
 
@@ -734,11 +734,6 @@ button.button-section1-servicios:hover {
   background-color: #1a9dd1;
 }
 
-.iconos-servicios:hover {
-  transform: scale(1.3);
-  transition: all 1.2s;
-}
-
 @media screen and (min-width: 481px) and (max-width: 980px) {
   html {
     font-size: 18px;
@@ -1067,7 +1062,7 @@ footer {
 }
 
 .logo-wpp {
-  width: 80px;
+  width: 3rem;
   position: fixed;
   right: 5px;
   bottom: 5px;
@@ -1124,7 +1119,6 @@ h5 {
   }
 
   .logo-wpp {
-    width: 12%;
     position: fixed;
     right: 0.5rem;
     bottom: 0.5rem;
@@ -1170,7 +1164,6 @@ h5 {
   }
 
   .logo-wpp {
-    width: 12%;
     position: fixed;
     right: 0.5rem;
     bottom: 0.5rem;
