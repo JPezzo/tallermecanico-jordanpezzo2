@@ -4,11 +4,12 @@
 
 .section-2-index {
     grid-area: section-2;
-    padding-bottom: 50px;
+    padding-bottom: 2rem;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 145px 70px 145px 70px 145px 70px 155px;
+    // grid-template-rows: 5.8rem 2.8rem 5.8rem 2.8rem 5.8rem 2.8rem 5.8rem;
+    grid-template-rows: repeat(7, 4rem);
     grid-template-areas: 
     "h2-section2-index h2-section2-index"
     "h3-1-section2-index img-section2-index"
@@ -17,26 +18,27 @@
     "p2-section2-index img-section2-index"
     "h3-3-section2-index img-section2-index"
     "p3-section2-index img-section2-index";
-    align-items: center;
 }
 
 .h2-section-2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-decoration: underline;
     color: white;
     text-align: center;
     text-shadow: $text-shadow-general;
     background-color: $bg-color-general;
     grid-area: h2-section2-index;
+    align-self: center;
 }
 
 .h3-section-2 {
-    padding: 5px;
-    font-size: 1.6rem;
+    padding-left: 0.2rem;
+    padding-bottom: 0.2rem;
+    font-size: 1.2rem;
     text-decoration: underline;
     color: white;
     text-shadow: $text-shadow-general;
-    background-color: $bg-color-general;
+    align-self: end;
 }
 
 .h3-1-section2-index {
@@ -52,11 +54,12 @@
 }
 
 .p-section-2 {
-    padding: 5px;
-    font-size: 1.4rem;
+    padding-top: 0.2rem;
+    padding-left: 0.2rem;
+    padding-bottom: 0.2rem;
+    font-size: 1rem;
     color: white;
     text-shadow: $text-shadow-general;
-    background-color: $bg-color-general;
 }
 
 .p1-section2-index {
