@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: rgba(112, 206, 250, 0.8);
+  background-color: #70cefa;
 }
 
 .grid-container-body-index {
@@ -148,11 +148,16 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
   }
 }
 /* Sección 1 del INDEX */
+.grid-container-body-index {
+  background: url(./../archivos-multimedia/header.jpg);
+}
+
 .section-1-index {
   grid-area: section-1;
   width: 90%;
   justify-self: center;
   padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
 }
 
 .section-1-index > img {
@@ -161,14 +166,14 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
 
 @keyframes zoom {
   from {
-    transform: scale(1.3, 1.3);
+    transform: scale(1.5, 1.5);
   }
   to {
     transform: scale(1, 1);
   }
 }
 div.carousel-inner div.carousel-item > img {
-  animation: zoom 6s;
+  animation: zoom 6.9s;
 }
 
 h1.recomendaciones, h2.recomendaciones {
@@ -262,6 +267,7 @@ button.button-section1-servicios:hover {
 .section-2-index {
   grid-area: section-2;
   padding-bottom: 2rem;
+  background-color: #70cefa;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(7, 4rem);

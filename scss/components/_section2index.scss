@@ -5,6 +5,7 @@
 .section-2-index {
     grid-area: section-2;
     padding-bottom: 2rem;
+    background-color: hsla(199, 93%, 71%, 100%);
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);

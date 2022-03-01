@@ -2,11 +2,16 @@
 
 @import "../base/variables";
 
+.grid-container-body-index {
+  background: url(./../archivos-multimedia/header.jpg);
+}
+
 .section-1-index {
     grid-area: section-1;
     width: 90%;
     justify-self: center;
     padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
 }
 
 .section-1-index > img {
@@ -15,7 +20,7 @@
 
 @keyframes zoom {
   from {
-    transform: scale(1.3, 1.3);
+    transform: scale(1.5, 1.5);
   }
   to {
     transform: scale(1, 1);
@@ -23,7 +28,7 @@
 }
 
 div.carousel-inner div.carousel-item > img {
-  animation: zoom 6s;
+  animation: zoom 6.9s;
 }
 
 h1.recomendaciones, h2.recomendaciones {
