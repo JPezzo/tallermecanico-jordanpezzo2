@@ -409,7 +409,7 @@ button.button-section1-servicios:hover {
   background-color: #1a9dd1;
   grid-area: h1-el-taller;
   color: white;
-  font-size: 45px;
+  font-size: 1.8rem;
 }
 
 .p-section-el-taller {
@@ -418,7 +418,7 @@ button.button-section1-servicios:hover {
   background-color: #1a9dd1;
   text-align: center;
   color: white;
-  font-size: 40px;
+  font-size: 1.6rem;
 }
 
 .p1-el-taller {
@@ -461,6 +461,10 @@ button.button-section1-servicios:hover {
 }
 
 @media screen and (min-width: 481px) and (max-width: 980px) {
+  html {
+    font-size: 18px;
+  }
+
   .section-1-eltaller {
     display: grid;
     grid-template-columns: 1fr;
@@ -472,13 +476,11 @@ button.button-section1-servicios:hover {
   }
 
   .h1-el-taller {
-    font-size: 2.3rem;
     text-shadow: 0.1rem 0.1rem black;
     grid-area: h1-el-taller;
   }
 
   .p-section-el-taller {
-    font-size: 1.8rem;
     text-shadow: 0.1rem 0.1rem black;
     text-align: center;
   }
@@ -517,6 +519,10 @@ button.button-section1-servicios:hover {
   }
 }
 @media screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+
   .section-1-eltaller {
     display: grid;
     grid-template-columns: 1fr;
@@ -528,13 +534,11 @@ button.button-section1-servicios:hover {
   }
 
   .h1-el-taller {
-    font-size: 2.3rem;
     text-shadow: 0.1rem 0.1rem black;
     grid-area: h1-el-taller;
   }
 
   .p-section-el-taller {
-    font-size: 1.8rem;
     text-shadow: 0.1rem 0.1rem black;
     text-align: center;
   }
@@ -587,7 +591,7 @@ button.button-section1-servicios:hover {
 
 .h1-servicios {
   padding: 5px;
-  font-size: 45px;
+  font-size: 1.8rem;
   text-decoration: underline;
   color: white;
   text-align: center;
@@ -598,7 +602,7 @@ button.button-section1-servicios:hover {
 
 .h2-section-servicios {
   padding: 5px;
-  font-size: 25px;
+  font-size: 1rem;
   text-decoration: underline;
   color: white;
   text-shadow: 1.5px 1.5px black;
@@ -715,7 +719,7 @@ button.button-section1-servicios:hover {
 
 .ul-section-servicios {
   padding: 5px;
-  font-size: 23px;
+  font-size: 0.92rem;
   color: white;
   text-shadow: 1.5px 1.5px black;
   background-color: #1a9dd1;
@@ -734,6 +738,10 @@ button.button-section1-servicios:hover {
 }
 
 @media screen and (min-width: 481px) and (max-width: 980px) {
+  html {
+    font-size: 18px;
+  }
+
   .section-1-servicios {
     display: grid;
     grid-template-columns: 1fr;
@@ -745,26 +753,24 @@ button.button-section1-servicios:hover {
   }
 
   .h1-servicios {
-    font-size: 2.3rem;
     text-shadow: 0.1rem 0.1rem black;
     background-color: #1a9dd1;
   }
 
   .h2-section-servicios {
-    font-size: 1.8rem;
     text-shadow: 0.1rem 0.1rem black;
     background-color: #1a9dd1;
   }
 
   .iconos-servicios {
     width: 6rem;
-  }
-
-  .ul-section-servicios {
-    font-size: 1.6rem;
   }
 }
 @media screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+
   .section-1-servicios {
     display: grid;
     grid-template-columns: 1fr;
@@ -776,23 +782,17 @@ button.button-section1-servicios:hover {
   }
 
   .h1-servicios {
-    font-size: 2.3rem;
     text-shadow: 0.1rem 0.1rem black;
     background-color: #1a9dd1;
   }
 
   .h2-section-servicios {
-    font-size: 1.8rem;
     text-shadow: 0.1rem 0.1rem black;
     background-color: #1a9dd1;
   }
 
   .iconos-servicios {
     width: 6rem;
-  }
-
-  .ul-section-servicios {
-    font-size: 1.6rem;
   }
 }
 /* Sección 1 de Promociones */
@@ -807,7 +807,7 @@ button.button-section1-servicios:hover {
 
 .h1-promociones {
   padding: 5px;
-  font-size: 45px;
+  font-size: 1.8rem;
   text-decoration: underline;
   color: white;
   text-align: center;
@@ -818,7 +818,7 @@ button.button-section1-servicios:hover {
 
 .p-section-promociones {
   padding: 5px;
-  font-size: 40px;
+  font-size: 1.6rem;
   color: white;
   text-shadow: 1.5px 1.5px black;
   background-color: #1a9dd1;
@@ -856,6 +856,10 @@ button.button-section1-servicios:hover {
 }
 
 @media screen and (min-width: 481px) and (max-width: 980px) {
+  html {
+    font-size: 18px;
+  }
+
   .section-1-promociones {
     display: grid;
     grid-template-columns: 1fr;
@@ -866,13 +870,11 @@ button.button-section1-servicios:hover {
   }
 
   .h1-promociones {
-    font-size: 2.3rem;
     text-shadow: 0.1rem 0.1rem black;
     grid-area: h1-promociones;
   }
 
   .p-section-promociones {
-    font-size: 1.6rem;
     text-shadow: 0.1rem 0.1rem black;
     text-align: center;
   }
@@ -917,6 +919,10 @@ button.button-section1-servicios:hover {
   }
 }
 @media screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+
   .section-1-promociones {
     display: grid;
     grid-template-columns: 1fr;
@@ -927,13 +933,11 @@ button.button-section1-servicios:hover {
   }
 
   .h1-promociones {
-    font-size: 2.3rem;
     text-shadow: 0.1rem 0.1rem black;
     grid-area: h1-promociones;
   }
 
   .p-section-promociones {
-    font-size: 1.6rem;
     text-shadow: 0.1rem 0.1rem black;
     text-align: center;
   }

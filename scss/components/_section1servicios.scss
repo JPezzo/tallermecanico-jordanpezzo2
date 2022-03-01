@@ -27,7 +27,7 @@
 
 .h1-servicios {
     padding: 5px;
-    font-size: 45px;
+    font-size: 1.8rem;
     text-decoration: underline;
     color: white;
     text-align: center;
@@ -38,7 +38,7 @@
 
 .h2-section-servicios {
     padding: 5px;
-    font-size: 25px;
+    font-size: 1rem;
     text-decoration: underline;
     color: white;
     text-shadow: $text-shadow-general;
@@ -156,7 +156,7 @@
 
 .ul-section-servicios {
     padding: 5px;
-    font-size: 23px;
+    font-size: 0.92rem;
     color: white;
     text-shadow: $text-shadow-general;
     background-color: $bg-color-general;
@@ -176,6 +176,10 @@
 
 @media screen and (min-width: 481px) and (max-width: 980px) {
 
+    html {
+        font-size: 18px;
+    }
+
     .section-1-servicios {
         display: grid;
         grid-template-columns: 1fr;
@@ -215,28 +219,26 @@
     }
     
     .h1-servicios {
-        font-size: 2.3rem;
         text-shadow: 0.1rem 0.1rem black;        
         background-color: hsla(197, 78%, 46%, 100%);
     }
     
     .h2-section-servicios {
-        font-size: 1.8rem;
         text-shadow: 0.1rem 0.1rem black;        
         background-color: hsla(197, 78%, 46%, 100%);
     }
 
     .iconos-servicios {
         width: 6rem;
-    }
-
-    .ul-section-servicios {
-        font-size: 1.6rem;
     }
 }
 
 @media screen and (max-width: 480px) {
 
+    html {
+        font-size: 12px;
+    }
+
     .section-1-servicios {
         display: grid;
         grid-template-columns: 1fr;
@@ -276,22 +278,16 @@
     }
     
     .h1-servicios {
-        font-size: 2.3rem;
         text-shadow: 0.1rem 0.1rem black;        
         background-color: hsla(197, 78%, 46%, 100%);
     }
     
     .h2-section-servicios {
-        font-size: 1.8rem;
         text-shadow: 0.1rem 0.1rem black;        
         background-color: hsla(197, 78%, 46%, 100%);
     }
 
     .iconos-servicios {
         width: 6rem;
-    }
-
-    .ul-section-servicios {
-        font-size: 1.6rem;
     }
 }

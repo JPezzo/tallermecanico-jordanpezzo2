@@ -24,7 +24,7 @@
     text-shadow: $text-shadow-general;
     background-color: $bg-color-general;
     grid-area: h1-el-taller;
-    @include properties(white, 45px);
+    @include properties(white, 1.8rem);
 }
 
 .p-section-el-taller {
@@ -32,7 +32,7 @@
     text-shadow: $text-shadow-general;
     background-color: $bg-color-general;
     text-align: center;
-    @include properties(white, 40px);
+    @include properties(white, 1.6rem);
 }
 
 .p1-el-taller {
@@ -75,6 +75,10 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 980px)  {
+
+    html {
+        font-size: 18px;
+    }
     
     .section-1-eltaller {
         display: grid;
@@ -91,13 +95,11 @@
     }
     
     .h1-el-taller {
-        font-size: 2.3rem;
         text-shadow: 0.1rem 0.1rem black;
         grid-area: h1-el-taller;
     }
     
     .p-section-el-taller {
-        font-size: 1.8rem;
         text-shadow: 0.1rem 0.1rem black;
         text-align: center;
     }
@@ -137,6 +139,10 @@
 }
 
 @media screen and (max-width: 480px)  {
+
+    html {
+        font-size: 12px;
+    }
     
     .section-1-eltaller {
         display: grid;
@@ -153,13 +159,11 @@
     }
     
     .h1-el-taller {
-        font-size: 2.3rem;
         text-shadow: 0.1rem 0.1rem black;
         grid-area: h1-el-taller;
     }
     
     .p-section-el-taller {
-        font-size: 1.8rem;
         text-shadow: 0.1rem 0.1rem black;
         text-align: center;
     }

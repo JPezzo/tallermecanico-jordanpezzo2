@@ -19,7 +19,7 @@
 
 .h1-promociones {
     padding: 5px;
-    font-size: 45px;
+    font-size: 1.8rem;
     text-decoration: underline;
     color: map-get($promociones, font-color);
     text-align: map-get($promociones, text-align);
@@ -30,7 +30,7 @@
 
 .p-section-promociones {
     padding: 5px;
-    font-size: 40px;
+    font-size: 1.6rem;
     color: map-get($promociones, font-color);
     text-shadow: $text-shadow-general;
     background-color: $bg-color-general;
@@ -69,6 +69,10 @@
 
 @media screen and (min-width: 481px) and (max-width: 980px) {
 
+    html {
+        font-size: 18px;
+    }
+
     .section-1-promociones {
         display: grid;
         grid-template-columns: 1fr;
@@ -83,13 +87,11 @@
     }
     
     .h1-promociones {
-        font-size: 2.3rem;
         text-shadow: 0.1rem 0.1rem black;
         grid-area: h1-promociones;
     }
     
     .p-section-promociones {
-        font-size: 1.6rem;
         text-shadow: 0.1rem 0.1rem black;
         text-align: center;
     }
@@ -136,6 +138,10 @@
 
 @media screen and (max-width: 480px) {
 
+    html {
+        font-size: 12px;
+    }
+
     .section-1-promociones {
         display: grid;
         grid-template-columns: 1fr;
@@ -150,13 +156,11 @@
     }
     
     .h1-promociones {
-        font-size: 2.3rem;
         text-shadow: 0.1rem 0.1rem black;
         grid-area: h1-promociones;
     }
     
     .p-section-promociones {
-        font-size: 1.6rem;
         text-shadow: 0.1rem 0.1rem black;
         text-align: center;
     }
