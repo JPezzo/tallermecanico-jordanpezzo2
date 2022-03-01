@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: #70cefa;
+  background-color: #1a9dd1;
 }
 
 .grid-container-body-index {
@@ -179,7 +179,7 @@ div.carousel-inner div.carousel-item > img {
 h1.recomendaciones, h2.recomendaciones {
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: rgba(112, 206, 250, 0.8);
+  background-color: rgba(26, 157, 209, 0.8);
   font-size: 1.8rem;
   color: white;
   text-shadow: 1.5px 1.5px black;
@@ -190,7 +190,7 @@ button.button-section1-servicios {
   padding-bottom: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color: rgba(112, 206, 250, 0.8);
+  background-color: rgba(26, 157, 209, 0.8);
   text-shadow: 1.5px 1.5px black;
   border: 5px outset cadetblue;
   box-shadow: 1.5px 1.5px black;
@@ -277,7 +277,6 @@ button.button-section1-servicios:hover {
 .h2-section-2 {
   padding-top: 1.8rem;
   font-size: 1.8rem;
-  text-decoration: underline;
   color: black;
   text-align: center;
   grid-area: h2-section2-index;
@@ -422,7 +421,6 @@ button.button-section1-servicios:hover {
 
 .h1-el-taller {
   padding: 5px;
-  text-decoration: underline;
   text-align: center;
   text-shadow: 1.5px 1.5px black;
   background-color: #1a9dd1;
@@ -611,7 +609,6 @@ button.button-section1-servicios:hover {
 .h1-servicios {
   padding: 5px;
   font-size: 1.8rem;
-  text-decoration: underline;
   color: white;
   text-align: center;
   text-shadow: 1.5px 1.5px black;
@@ -822,7 +819,6 @@ button.button-section1-servicios:hover {
 .h1-promociones {
   padding: 5px;
   font-size: 1.8rem;
-  text-decoration: underline;
   color: white;
   text-align: center;
   text-shadow: 1.5px 1.5px black;

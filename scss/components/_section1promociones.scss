@@ -20,7 +20,6 @@
 .h1-promociones {
     padding: 5px;
     font-size: 1.8rem;
-    text-decoration: underline;
     color: map-get($promociones, font-color);
     text-align: map-get($promociones, text-align);
     text-shadow: $text-shadow-general;
