@@ -21,7 +21,7 @@
 }
 
 .h2-section-2 {
-    font-size: 50px;
+    font-size: 2rem;
     text-decoration: underline;
     color: white;
     text-align: center;
@@ -32,7 +32,7 @@
 
 .h3-section-2 {
     padding: 5px;
-    font-size: 40px;
+    font-size: 1.6rem;
     text-decoration: underline;
     color: white;
     text-shadow: $text-shadow-general;
@@ -53,7 +53,7 @@
 
 .p-section-2 {
     padding: 5px;
-    font-size: 35px;
+    font-size: 1.4rem;
     color: white;
     text-shadow: $text-shadow-general;
     background-color: $bg-color-general;
@@ -79,6 +79,10 @@
 
 @media screen and (min-width: 481px) and (max-width: 980px) {
 
+    html {
+        font-size: 18px;
+    }
+
     .section-2-index {
         background: url(../archivos-multimedia/taller-mecanico-frente.jpg);
         background-repeat: no-repeat;
@@ -101,7 +105,6 @@
     }
 
     .h2-section-2 {
-        font-size: 2.3rem;
         padding: 0.3rem;
         align-self: start;
         width: 100%;
@@ -109,14 +112,12 @@
 
     .h3-section-2 {
         text-align: center;
-        font-size: 1.8rem;
         text-shadow: 0.1rem 0.1rem black;
         background-color: hsla(197, 78%, 46%, 0%);
     }
 
     .p-section-2 {
         text-align: center;
-        font-size: 1.6rem;
         text-shadow: 0.1rem 0.1rem black;
         background-color: hsla(197, 78%, 46%, 0%);
     }
@@ -127,6 +128,11 @@
 }
 
 @media screen and (max-width: 480px) {
+
+    html {
+        font-size: 12px;
+    }
+
     .section-2-index {
         background: url(../archivos-multimedia/taller-mecanico-frente.jpg);
         background-repeat: no-repeat;
@@ -149,21 +155,18 @@
     }
 
     .h2-section-2 {
-        font-size: 2rem;
         align-self: start;
         width: 100%;
     }
 
     .h3-section-2 {
         text-align: end;
-        font-size: 1.8rem;
         text-shadow: 0.1rem 0.1rem black;
         background-color: hsla(197, 78%, 46%, 0%);
     }
 
     .p-section-2 {
         text-align: center;
-        font-size: 1.6rem;
         text-shadow: 0.1rem 0.1rem black;
         background-color: hsla(197, 78%, 46%, 0%);
     }

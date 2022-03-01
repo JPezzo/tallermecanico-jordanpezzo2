@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html {
+  font-size: 25px;
+}
+
 body {
   background-color: #1a9dd1;
 }
@@ -66,7 +70,7 @@ header {
 
 .lista-horizontal {
   list-style: none;
-  font-size: 20px;
+  font-size: 0.8rem;
   padding-right: 40px;
   padding-left: 40px;
 }
@@ -123,6 +127,10 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
 }
 
 @media screen and (min-width: 481px) and (max-width: 980px) {
+  html {
+    font-size: 18px;
+  }
+
   header nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
     display: flex;
     flex-direction: row;
@@ -130,6 +138,10 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
   }
 }
 @media screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+
   header nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
     display: flex;
     flex-direction: row;
@@ -151,7 +163,7 @@ h1.recomendaciones, h2.recomendaciones {
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: rgba(112, 206, 250, 0.8);
-  font-size: 60px;
+  font-size: 2.4rem;
   color: white;
   text-shadow: 1.5px 1.5px black;
 }
@@ -169,7 +181,7 @@ button.button-section1-servicios {
 
 a.a-section-1-servicios {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 1.2rem;
   color: white;
 }
 
@@ -217,23 +229,21 @@ button.button-section1-servicios:hover {
   }
 }
 @media screen and (min-width: 481px) and (max-width: 980px) {
-  h1.recomendaciones, h2.recomendaciones {
-    background-color: rgba(112, 206, 250, 0.8);
-    font-size: 2.3rem;
+  html {
+    font-size: 18px;
   }
 
-  a.a-section-1-servicios {
-    font-size: 1.8rem;
+  h1.recomendaciones, h2.recomendaciones {
+    background-color: rgba(112, 206, 250, 0.8);
   }
 }
 @media screen and (max-width: 480px) {
-  h1.recomendaciones, h2.recomendaciones {
-    background-color: rgba(112, 206, 250, 0.8);
-    font-size: 2.3rem;
+  html {
+    font-size: 12px;
   }
 
-  a.a-section-1-servicios {
-    font-size: 1.8rem;
+  h1.recomendaciones, h2.recomendaciones {
+    background-color: rgba(112, 206, 250, 0.8);
   }
 }
 /* Sección 2 del INDEX */
@@ -248,7 +258,7 @@ button.button-section1-servicios:hover {
 }
 
 .h2-section-2 {
-  font-size: 50px;
+  font-size: 2rem;
   text-decoration: underline;
   color: white;
   text-align: center;
@@ -259,7 +269,7 @@ button.button-section1-servicios:hover {
 
 .h3-section-2 {
   padding: 5px;
-  font-size: 40px;
+  font-size: 1.6rem;
   text-decoration: underline;
   color: white;
   text-shadow: 1.5px 1.5px black;
@@ -280,7 +290,7 @@ button.button-section1-servicios:hover {
 
 .p-section-2 {
   padding: 5px;
-  font-size: 35px;
+  font-size: 1.4rem;
   color: white;
   text-shadow: 1.5px 1.5px black;
   background-color: #1a9dd1;
@@ -305,6 +315,10 @@ button.button-section1-servicios:hover {
 }
 
 @media screen and (min-width: 481px) and (max-width: 980px) {
+  html {
+    font-size: 18px;
+  }
+
   .section-2-index {
     background: url(../archivos-multimedia/taller-mecanico-frente.jpg);
     background-repeat: no-repeat;
@@ -318,7 +332,6 @@ button.button-section1-servicios:hover {
   }
 
   .h2-section-2 {
-    font-size: 2.3rem;
     padding: 0.3rem;
     align-self: start;
     width: 100%;
@@ -326,14 +339,12 @@ button.button-section1-servicios:hover {
 
   .h3-section-2 {
     text-align: center;
-    font-size: 1.8rem;
     text-shadow: 0.1rem 0.1rem black;
     background-color: rgba(26, 157, 209, 0);
   }
 
   .p-section-2 {
     text-align: center;
-    font-size: 1.6rem;
     text-shadow: 0.1rem 0.1rem black;
     background-color: rgba(26, 157, 209, 0);
   }
@@ -343,6 +354,10 @@ button.button-section1-servicios:hover {
   }
 }
 @media screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+
   .section-2-index {
     background: url(../archivos-multimedia/taller-mecanico-frente.jpg);
     background-repeat: no-repeat;
@@ -356,21 +371,18 @@ button.button-section1-servicios:hover {
   }
 
   .h2-section-2 {
-    font-size: 2rem;
     align-self: start;
     width: 100%;
   }
 
   .h3-section-2 {
     text-align: end;
-    font-size: 1.8rem;
     text-shadow: 0.1rem 0.1rem black;
     background-color: rgba(26, 157, 209, 0);
   }
 
   .p-section-2 {
     text-align: center;
-    font-size: 1.6rem;
     text-shadow: 0.1rem 0.1rem black;
     background-color: rgba(26, 157, 209, 0);
   }
@@ -1039,13 +1051,13 @@ footer {
 }
 
 .h4-footer {
-  font-size: 20px;
+  font-size: 0.8rem;
   text-decoration: underline;
   text-shadow: 1.5px 1.5px black;
 }
 
 .p-footer {
-  font-size: 18px;
+  font-size: 0.72rem;
   text-shadow: 1.5px 1.5px black;
 }
 
@@ -1075,11 +1087,15 @@ h5 {
   color: white;
   text-shadow: 1px 1px black;
   text-align: center;
-  font-size: 15px;
+  font-size: 0.6rem;
   background-color: gray;
 }
 
 @media screen and (min-width: 481px) and (max-width: 980px) {
+  html {
+    font-size: 18px;
+  }
+
   footer {
     display: grid;
     grid-template-columns: 1fr;
@@ -1095,12 +1111,10 @@ h5 {
   }
 
   .h4-footer {
-    font-size: 1.5rem;
     text-shadow: 0.1rem 0.1rem black;
   }
 
   .p-footer {
-    font-size: 1.5rem;
     text-shadow: 0.1rem 0.1rem black;
   }
 
@@ -1121,10 +1135,13 @@ h5 {
 
   h5 {
     text-shadow: 0.1rem 0.1rem black;
-    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+
   footer {
     display: grid;
     grid-template-columns: 1fr;
@@ -1140,12 +1157,10 @@ h5 {
   }
 
   .h4-footer {
-    font-size: 1.5rem;
     text-shadow: 0.1rem 0.1rem black;
   }
 
   .p-footer {
-    font-size: 1.5rem;
     text-shadow: 0.1rem 0.1rem black;
   }
 
@@ -1166,7 +1181,6 @@ h5 {
 
   h5 {
     text-shadow: 0.1rem 0.1rem black;
-    font-size: 1.2rem;
   }
 }
 

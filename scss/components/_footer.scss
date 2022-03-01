@@ -78,14 +78,14 @@ footer {
 }
 
 .h4-footer {
-    font-size: 20px;
+    font-size: 0.8rem;
     text-decoration: underline;
     text-shadow: $text-shadow-general;
     @extend %footer-style;
 }
 
 .p-footer {
-    font-size: 18px;
+    font-size: 0.72rem;
     text-shadow: $text-shadow-general;
     @extend %footer-style;
 }
@@ -116,11 +116,15 @@ h5 {
     color: white;
     text-shadow: 1px 1px black;
     text-align: center;
-    font-size: 15px;
+    font-size: 0.6rem;
     background-color: gray;
 }
 
 @media screen and (min-width: 481px) and (max-width: 980px) {
+
+    html {
+        font-size: 18px;
+    }
     
     footer {
         display: grid;
@@ -154,12 +158,10 @@ h5 {
     }
     
     .h4-footer {
-        font-size: 1.5rem;
         text-shadow: 0.1rem 0.1rem black;
     }
     
     .p-footer {
-        font-size: 1.5rem;
         text-shadow: 0.1rem 0.1rem black;
     }
     
@@ -180,12 +182,15 @@ h5 {
     
     h5 {
         text-shadow: 0.1rem 0.1rem black;
-        font-size: 1.2rem;
     }
 }
 
 @media screen and (max-width: 480px) {
     
+    html {
+        font-size: 12px;
+    }
+    
     footer {
         display: grid;
         grid-template-columns: 1fr;
@@ -218,12 +223,10 @@ h5 {
     }
     
     .h4-footer {
-        font-size: 1.5rem;
         text-shadow: 0.1rem 0.1rem black;
     }
     
     .p-footer {
-        font-size: 1.5rem;
         text-shadow: 0.1rem 0.1rem black;
     }
     
@@ -244,6 +247,5 @@ h5 {
     
     h5 {
         text-shadow: 0.1rem 0.1rem black;
-        font-size: 1.2rem;
     }
 }

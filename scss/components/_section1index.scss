@@ -15,7 +15,7 @@ h1.recomendaciones, h2.recomendaciones {
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: hsla(199, 93%, 71%, 80%);
-    font-size: 60px;
+    font-size: 2.4rem;
     color: white;
     text-shadow: $text-shadow-general;
 }
@@ -33,7 +33,7 @@ button.button-section1-servicios {
 
 a.a-section-1-servicios {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1.2rem;
     color: white;
 }
 
@@ -83,24 +83,22 @@ button.button-section1-servicios:hover {
 
 @media screen and (min-width: 481px) and (max-width: 980px) {
 
-  h1.recomendaciones, h2.recomendaciones {
-    background-color: hsla(199, 93%, 71%, 80%);
-    font-size: 2.3rem;
+  html {
+    font-size: 18px;
   }
 
-  a.a-section-1-servicios {
-    font-size: 1.8rem;
+  h1.recomendaciones, h2.recomendaciones {
+    background-color: hsla(199, 93%, 71%, 80%);
   }
 }
 
 @media screen and (max-width: 480px) {
 
-  h1.recomendaciones, h2.recomendaciones {
-    background-color: hsla(199, 93%, 71%, 80%);
-    font-size: 2.3rem;
+  html {
+    font-size: 12px;
   }
 
-  a.a-section-1-servicios {
-    font-size: 1.8rem;
+  h1.recomendaciones, h2.recomendaciones {
+    background-color: hsla(199, 93%, 71%, 80%);
   }
 }

@@ -80,6 +80,10 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
 
 @media screen and (min-width: 481px) and (max-width: 980px) {
 
+    html {
+        font-size: 18px;
+    }
+
     header nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
         display: flex;
         flex-direction: row;
@@ -88,6 +92,10 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
 }
 
 @media screen and (max-width: 480px) {
+
+    html {
+        font-size: 12px;
+    }
 
     header nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
         display: flex;
