@@ -19,6 +19,7 @@
 
 .h1-promociones {
     padding: 5px;
+    text-align: center;
     font-size: 1.8rem;
     color: map-get($promociones, font-color);
     text-align: map-get($promociones, text-align);
