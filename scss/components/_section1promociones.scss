@@ -79,13 +79,16 @@
     .section-1-promociones {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 6rem repeat(3, 0.5fr);
+        grid-template-rows: 6rem repeat(6, 0.5fr);
         grid-template-areas: 
         "h1-promociones"
         "p1-promo"
+        "tarjetas-servicios"
         "p2-promo"
-        "p3-promo";
-        grid-row-gap: 1rem;
+        "billetes"
+        "p3-promo"
+        "mercado-pago";
+        grid-row-gap: auto;
         align-items: center;
     }
     
@@ -99,44 +102,44 @@
         text-align: center;
     }
 
-    .p1-promo {
-        background: url(../archivos-multimedia/tarjetas.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        line-height: 4rem;
-        grid-area: p1-promo;
-        padding: 5rem 5rem;
-    }
+    // .p1-promo {
+    //     background: url(../archivos-multimedia/tarjetas.jpg);
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     line-height: 4rem;
+    //     grid-area: p1-promo;
+    //     padding: 5rem 5rem;
+    // }
 
-    .p2-promo {
-        background: url(../archivos-multimedia/billetes.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        line-height: 4rem;
-        grid-area: p2-promo;
-        padding: 5rem 5rem;
-    }
+    // .p2-promo {
+    //     background: url(../archivos-multimedia/billetes.jpg);
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     line-height: 4rem;
+    //     grid-area: p2-promo;
+    //     padding: 5rem 5rem;
+    // }
 
-    .p3-promo {
-        background: url(../archivos-multimedia/mercado-pago.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        line-height: 4rem;
-        grid-area: p3-promo;
-        padding: 5rem 5rem;
-    }
+    // .p3-promo {
+    //     background: url(../archivos-multimedia/mercado-pago.jpg);
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     line-height: 4rem;
+    //     grid-area: p3-promo;
+    //     padding: 5rem 5rem;
+    // }
     
-    .tarjetas-servicios {
-        display: none;
-    }
+    // .tarjetas-servicios {
+    //     display: none;
+    // }
     
-    .billetes {
-        display: none;
-    }
+    // .billetes {
+    //     display: none;
+    // }
     
-    .mercado-pago {
-        display: none;
-    }
+    // .mercado-pago {
+    //     display: none;
+    // }
 }
 
 @media screen and (max-width: 480px) {
@@ -148,13 +151,16 @@
     .section-1-promociones {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 6rem repeat(3, 0.5fr);
+        grid-template-rows: 6rem repeat(6, 0.5fr);
         grid-template-areas: 
         "h1-promociones"
         "p1-promo"
+        "tarjetas-servicios"
         "p2-promo"
-        "p3-promo";
-        grid-row-gap: 1rem;
+        "billetes"
+        "p3-promo"
+        "mercado-pago";
+        grid-row-gap: auto;
         align-items: center;
     }
     
@@ -168,42 +174,42 @@
         text-align: center;
     }
 
-    .p1-promo {
-        background: url(../archivos-multimedia/tarjetas.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        line-height: 4rem;
-        grid-area: p1-promo;
-        padding: 5rem 5rem;
-    }
+    // .p1-promo {
+    //     background: url(../archivos-multimedia/tarjetas.jpg);
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     line-height: 4rem;
+    //     grid-area: p1-promo;
+    //     padding: 5rem 5rem;
+    // }
 
-    .p2-promo {
-        background: url(../archivos-multimedia/billetes.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        line-height: 4rem;
-        grid-area: p2-promo;
-        padding: 5rem 5rem;
-    }
+    // .p2-promo {
+    //     background: url(../archivos-multimedia/billetes.jpg);
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     line-height: 4rem;
+    //     grid-area: p2-promo;
+    //     padding: 5rem 5rem;
+    // }
 
-    .p3-promo {
-        background: url(../archivos-multimedia/mercado-pago.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        line-height: 4rem;
-        grid-area: p3-promo;
-        padding: 5rem 5rem;
-    }
+    // .p3-promo {
+    //     background: url(../archivos-multimedia/mercado-pago.jpg);
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     line-height: 4rem;
+    //     grid-area: p3-promo;
+    //     padding: 5rem 5rem;
+    // }
     
-    .tarjetas-servicios {
-        display: none;
-    }
+    // .tarjetas-servicios {
+    //     display: none;
+    // }
     
-    .billetes {
-        display: none;
-    }
+    // .billetes {
+    //     display: none;
+    // }
     
-    .mercado-pago {
-        display: none;
-    }
+    // .mercado-pago {
+    //     display: none;
+    // }
 }

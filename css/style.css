@@ -564,6 +564,7 @@ button.button-section1-servicios:hover {
   padding: 5px;
   font-size: 1rem;
   text-decoration: underline;
+  text-underline-position: under;
   color: white;
   text-shadow: 1.5px 1.5px black;
 }
@@ -706,12 +707,11 @@ button.button-section1-servicios:hover {
 
   .h1-servicios {
     text-shadow: 0.1rem 0.1rem black;
-    background-color: #1a9dd1;
+    padding: none;
   }
 
   .h2-section-servicios {
     text-shadow: 0.1rem 0.1rem black;
-    background-color: #1a9dd1;
   }
 
   .iconos-servicios {
@@ -735,12 +735,10 @@ button.button-section1-servicios:hover {
 
   .h1-servicios {
     text-shadow: 0.1rem 0.1rem black;
-    background-color: #1a9dd1;
   }
 
   .h2-section-servicios {
     text-shadow: 0.1rem 0.1rem black;
-    background-color: #1a9dd1;
   }
 
   .iconos-servicios {
@@ -816,9 +814,9 @@ button.button-section1-servicios:hover {
   .section-1-promociones {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 6rem repeat(3, 0.5fr);
-    grid-template-areas: "h1-promociones" "p1-promo" "p2-promo" "p3-promo";
-    grid-row-gap: 1rem;
+    grid-template-rows: 6rem repeat(6, 0.5fr);
+    grid-template-areas: "h1-promociones" "p1-promo" "tarjetas-servicios" "p2-promo" "billetes" "p3-promo" "mercado-pago";
+    grid-row-gap: auto;
     align-items: center;
   }
 
@@ -830,45 +828,6 @@ button.button-section1-servicios:hover {
   .p-section-promociones {
     text-shadow: 0.1rem 0.1rem black;
     text-align: center;
-  }
-
-  .p1-promo {
-    background: url(../archivos-multimedia/tarjetas.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 4rem;
-    grid-area: p1-promo;
-    padding: 5rem 5rem;
-  }
-
-  .p2-promo {
-    background: url(../archivos-multimedia/billetes.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 4rem;
-    grid-area: p2-promo;
-    padding: 5rem 5rem;
-  }
-
-  .p3-promo {
-    background: url(../archivos-multimedia/mercado-pago.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 4rem;
-    grid-area: p3-promo;
-    padding: 5rem 5rem;
-  }
-
-  .tarjetas-servicios {
-    display: none;
-  }
-
-  .billetes {
-    display: none;
-  }
-
-  .mercado-pago {
-    display: none;
   }
 }
 @media screen and (max-width: 480px) {
@@ -879,9 +838,9 @@ button.button-section1-servicios:hover {
   .section-1-promociones {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 6rem repeat(3, 0.5fr);
-    grid-template-areas: "h1-promociones" "p1-promo" "p2-promo" "p3-promo";
-    grid-row-gap: 1rem;
+    grid-template-rows: 6rem repeat(6, 0.5fr);
+    grid-template-areas: "h1-promociones" "p1-promo" "tarjetas-servicios" "p2-promo" "billetes" "p3-promo" "mercado-pago";
+    grid-row-gap: auto;
     align-items: center;
   }
 
@@ -894,45 +853,6 @@ button.button-section1-servicios:hover {
     text-shadow: 0.1rem 0.1rem black;
     text-align: center;
   }
-
-  .p1-promo {
-    background: url(../archivos-multimedia/tarjetas.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 4rem;
-    grid-area: p1-promo;
-    padding: 5rem 5rem;
-  }
-
-  .p2-promo {
-    background: url(../archivos-multimedia/billetes.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 4rem;
-    grid-area: p2-promo;
-    padding: 5rem 5rem;
-  }
-
-  .p3-promo {
-    background: url(../archivos-multimedia/mercado-pago.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 4rem;
-    grid-area: p3-promo;
-    padding: 5rem 5rem;
-  }
-
-  .tarjetas-servicios {
-    display: none;
-  }
-
-  .billetes {
-    display: none;
-  }
-
-  .mercado-pago {
-    display: none;
-  }
 }
 /* Sección 1 de contacto */
 .section-1-contacto {
@@ -940,7 +860,7 @@ button.button-section1-servicios:hover {
 }
 
 .h1-contacto {
-  padding: 5px;
+  padding: 1rem;
   text-decoration: underline;
   text-underline-position: under;
   text-align: center;
@@ -970,7 +890,7 @@ footer {
   padding-top: 1rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(7, 40px);
+  grid-template-rows: repeat(7, 2rem);
   grid-template-areas: "datos ubicacion nuestros" "celular mapa lunes" "mail mapa siete" ". mapa ." "fbig mapa sabado" ". mapa siete2" "copyright . jordan";
   align-items: center;
   justify-items: center;
@@ -1051,6 +971,45 @@ footer {
   z-index: 3;
 }
 
+a img.logo-wpp:hover {
+  animation: moveButton 3s;
+}
+
+@keyframes moveButton {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(-2px);
+  }
+  20% {
+    transform: translateY(2px);
+  }
+  30% {
+    transform: translateY(-2px);
+  }
+  40% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+  60% {
+    transform: translateY(2px);
+  }
+  70% {
+    transform: translateY(-2px);
+  }
+  80% {
+    transform: translateY(1.2px);
+  }
+  90% {
+    transform: translateY(-1.2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .link-instagram {
   text-decoration: none;
 }
@@ -1081,7 +1040,7 @@ h5 {
   footer {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(16, 2rem);
+    grid-template-rows: 2.5rem 2rem 2rem 2rem 2.5rem 2rem 2.5rem 2rem 2rem 2rem 2rem 2rem 2rem;
     grid-template-areas: "datos" "celular" "mail" "fbig" "ubicacion" "mapa" "mapa" "mapa" "mapa" "nuestros" "lunes" "siete" "sabado" "siete2" "copyright" "jordan";
     align-items: center;
     justify-items: center;

@@ -10,7 +10,7 @@ footer {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, 40px);
+    grid-template-rows: repeat(7, 2rem);
     grid-template-areas: 
     "datos ubicacion nuestros"
     "celular mapa lunes"
@@ -100,6 +100,46 @@ footer {
     z-index: 3;
 }
 
+a img.logo-wpp:hover {
+    animation: moveButton 3s;
+}
+
+@keyframes moveButton {
+  0%{
+    transform: translateY(0);
+  }
+  10%{
+    transform: translateY(-2px);
+  }
+  20%{
+    transform: translateY(2px);
+  }
+  30%{
+    transform: translateY(-2px);
+  }
+  40%{
+    transform: translateY(2px);
+  }
+  50%{
+    transform: translateY(-2px);
+  }
+  60%{
+    transform: translateY(2px);
+  }
+  70%{
+    transform: translateY(-2px);
+  }
+  80%{
+    transform: translateY(1.2px);
+  }
+  90%{
+    transform: translateY(-1.2px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
 .link-instagram {
     text-decoration: none;
 }
@@ -131,7 +171,8 @@ h5 {
     footer {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(16, 2rem);
+        // grid-template-rows: repeat(16, 2.5rem);
+        grid-template-rows: 2.5rem 2rem 2rem 2rem 2.5rem 2rem 2.5rem 2rem 2rem 2rem 2rem 2rem 2rem;
         grid-template-areas: 
         "datos"
         "celular"
