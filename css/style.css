@@ -342,7 +342,7 @@ button.button-section1-servicios:hover {
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(7, 6rem);
+    grid-template-rows: repeat(7, 5rem);
     grid-template-areas: "h2-section2-index" "h3-1-section2-index" "p1-section2-index" "h3-2-section2-index" "p2-section2-index" "h3-3-section2-index" "p3-section2-index";
     align-items: center;
     justify-items: center;
@@ -372,7 +372,7 @@ button.button-section1-servicios:hover {
 }
 @media screen and (max-width: 480px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .section-2-index {
@@ -1129,7 +1129,7 @@ h5 {
   footer {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(16, 4.3rem);
+    grid-template-rows: repeat(16, 2rem);
     grid-template-areas: "datos" "celular" "mail" "fbig" "ubicacion" "mapa" "mapa" "mapa" "mapa" "nuestros" "lunes" "siete" "sabado" "siete2" "copyright" "jordan";
     align-items: center;
     justify-items: center;
@@ -1142,6 +1142,7 @@ h5 {
 
   .h4-footer {
     text-shadow: 0.1rem 0.1rem black;
+    align-self: end;
   }
 
   .p-footer {
@@ -1155,11 +1156,11 @@ h5 {
   }
 
   .logo-instagram {
-    width: 3rem;
+    width: 2rem;
   }
 
   .logo-facebook {
-    width: 3rem;
+    width: 2rem;
   }
 
   h5 {
@@ -1168,13 +1169,13 @@ h5 {
 }
 @media screen and (max-width: 480px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   footer {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(16, 4.3rem);
+    grid-template-rows: repeat(16, 3rem);
     grid-template-areas: "datos" "celular" "mail" "fbig" "ubicacion" "mapa" "mapa" "mapa" "mapa" "nuestros" "lunes" "siete" "sabado" "siete2" "copyright" "jordan";
     align-items: center;
     justify-items: center;

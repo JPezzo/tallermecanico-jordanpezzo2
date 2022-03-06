@@ -129,7 +129,7 @@ h5 {
     footer {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(16, 4.3rem);
+        grid-template-rows: repeat(16, 2rem);
         grid-template-areas: 
         "datos"
         "celular"
@@ -159,6 +159,7 @@ h5 {
     
     .h4-footer {
         text-shadow: 0.1rem 0.1rem black;
+        align-self: end;
     }
     
     .p-footer {
@@ -172,11 +173,11 @@ h5 {
     }
     
     .logo-instagram {
-        width: 3rem;
+        width: 2rem;
     }
     
     .logo-facebook {
-        width: 3rem;
+        width: 2rem;
     }
     
     h5 {
@@ -187,13 +188,13 @@ h5 {
 @media screen and (max-width: 480px) {
     
     html {
-        font-size: 12px;
+        font-size: 14px;
     }
     
     footer {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(16, 4.3rem);
+        grid-template-rows: repeat(16, 3rem);
         grid-template-areas: 
         "datos"
         "celular"
