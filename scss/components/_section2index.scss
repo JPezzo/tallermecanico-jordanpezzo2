@@ -4,9 +4,11 @@
 
 .section-2-index {
     grid-area: section-2;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    background-color: hsla(197, 78%, 46%, 100%);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    // background-color: hsla(197, 78%, 46%, 100%);
+    background: url(./../archivos-multimedia/otrofondo.jpg);
+    background-size: cover;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -82,6 +84,7 @@
     height: 100%;
 }
 
+
 @media screen and (min-width: 481px) and (max-width: 980px) {
 
     html {
@@ -139,7 +142,7 @@
     }
 
     .section-2-index {
-        background: url(../archivos-multimedia/taller-mecanico-frente.jpg);
+        background: url(./../archivos-multimedia/taller-mecanico-frente.jpg);
         background-repeat: no-repeat;
         background-size: auto;
         display: grid;

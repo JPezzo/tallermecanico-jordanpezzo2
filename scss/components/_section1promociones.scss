@@ -15,6 +15,7 @@
     "billetes p2-promo"
     "p3-promo mercado-pago";
     align-items: center;
+    background: url(./../archivos-multimedia/otrofondo.jpg);
 }
 
 .h1-promociones {
@@ -24,7 +25,7 @@
     color: map-get($promociones, font-color);
     text-align: map-get($promociones, text-align);
     text-shadow: $text-shadow-general;
-    background-color: $bg-color-general;
+    // background-color: $bg-color-general;
     grid-area: h1-promociones;
 }
 
@@ -33,7 +34,7 @@
     font-size: 1.6rem;
     color: map-get($promociones, font-color);
     text-shadow: $text-shadow-general;
-    background-color: $bg-color-general;
+    // background-color: $bg-color-general;
     text-align: map-get($promociones, text-align);
 }
 

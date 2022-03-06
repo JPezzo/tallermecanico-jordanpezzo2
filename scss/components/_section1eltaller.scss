@@ -15,6 +15,7 @@
     "img2-el-taller p2-el-taller"
     "p3-el-taller img3-el-taller";
     align-items: center;
+    background: url(./../archivos-multimedia/otrofondo.jpg);
 }
 
 .h1-el-taller {
@@ -22,7 +23,7 @@
     // text-decoration: underline;
     text-align: center;
     text-shadow: $text-shadow-general;
-    background-color: $bg-color-general;
+    // background-color: $bg-color-general;
     grid-area: h1-el-taller;
     @include properties(white, 1.8rem);
 }
@@ -30,7 +31,7 @@
 .p-section-el-taller {
     padding: 5px;
     text-shadow: $text-shadow-general;
-    background-color: $bg-color-general;
+    // background-color: $bg-color-general;
     text-align: center;
     @include properties(white, 1.6rem);
 }

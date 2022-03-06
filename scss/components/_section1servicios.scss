@@ -23,6 +23,7 @@
     grid-row-gap: 30px;
     align-items: center;
     justify-items: center;
+    background: url(./../archivos-multimedia/otrofondo.jpg);
 }
 
 .h1-servicios {
@@ -31,7 +32,7 @@
     color: white;
     text-align: center;
     text-shadow: $text-shadow-general;
-    background-color: $bg-color-general;
+    // background-color: $bg-color-general;
     grid-area: h1;
 }
 
@@ -41,7 +42,7 @@
     text-decoration: underline;
     color: white;
     text-shadow: $text-shadow-general;
-    background-color: $bg-color-general;
+    // background-color: $bg-color-general;
 }
 
 .mecanica-general {
@@ -158,14 +159,14 @@
     font-size: 0.92rem;
     color: white;
     text-shadow: $text-shadow-general;
-    background-color: $bg-color-general;
+    // background-color: $bg-color-general;
     list-style: none;
     text-align: center;
 }
 
 .iconos-servicios {
     width: 80px;
-    background-color: $bg-color-general;
+    // background-color: $bg-color-general;
 }
 
 @media screen and (min-width: 481px) and (max-width: 980px) {
