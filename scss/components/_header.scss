@@ -73,7 +73,7 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
 }
 
 .logo-header {
-    width: 80%;
+    width: 70%;
 }
 
 .logo-header:hover {
@@ -105,12 +105,5 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
         flex-direction: row;
         flex-wrap: nowrap;
         align-items: center;
-    }
-}
-
-
-@media screen and (orientation: landscape) and (max-width: 1000px) {
-    .logo-header {
-        width: 40%;
     }
 }
