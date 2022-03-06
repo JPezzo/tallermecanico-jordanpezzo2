@@ -107,3 +107,10 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
         align-items: center;
     }
 }
+
+
+@media screen and (orientation: landscape) and (max-width: 700px) {
+    .logo-header {
+        width: 40%;
+    }
+}
