@@ -77,30 +77,35 @@ header {
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-inicio {
   text-shadow: 1.5px 1.5px black;
   text-decoration: underline;
+  text-underline-position: under;
   color: white;
 }
 
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-el-taller {
   text-shadow: 1.5px 1.5px black;
   text-decoration: underline;
+  text-underline-position: under;
   color: white;
 }
 
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-servicios {
   text-shadow: 1.5px 1.5px black;
   text-decoration: underline;
+  text-underline-position: under;
   color: white;
 }
 
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-promociones {
   text-shadow: 1.5px 1.5px black;
   text-decoration: underline;
+  text-underline-position: under;
   color: white;
 }
 
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-contacto {
   text-shadow: 1.5px 1.5px black;
   text-decoration: underline;
+  text-underline-position: under;
   color: white;
 }
 
@@ -279,6 +284,8 @@ button.button-section1-servicios:hover {
 .h2-section-2 {
   padding-top: 1.8rem;
   padding-bottom: 1.8rem;
+  text-decoration: underline;
+  text-underline-position: under;
   font-size: 1.8rem;
   color: white;
   text-align: center;
@@ -289,7 +296,6 @@ button.button-section1-servicios:hover {
 
 .h3-section-2 {
   font-size: 1.1rem;
-  text-decoration: underline;
   color: white;
   text-shadow: 1.5px 1.5px black;
   align-self: end;
@@ -421,6 +427,8 @@ button.button-section1-servicios:hover {
 
 .h1-el-taller {
   padding: 5px;
+  text-decoration: underline;
+  text-underline-position: under;
   text-align: center;
   text-shadow: 1.5px 1.5px black;
   grid-area: h1-el-taller;
@@ -483,9 +491,9 @@ button.button-section1-servicios:hover {
   .section-1-eltaller {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 5rem repeat(3, 40rem);
-    grid-template-areas: "h1-el-taller" "p1-el-taller" "p2-el-taller" "p3-el-taller";
-    grid-row-gap: 4rem;
+    grid-template-rows: 5rem repeat(6, auto);
+    grid-template-areas: "h1-el-taller" "p1-el-taller" "img1-el-taller" "p2-el-taller" "img2-el-taller" "p3-el-taller" "img3-el-taller";
+    grid-row-gap: 2rem;
     align-items: center;
     justify-content: center;
   }
@@ -493,44 +501,12 @@ button.button-section1-servicios:hover {
   .h1-el-taller {
     text-shadow: 0.1rem 0.1rem black;
     grid-area: h1-el-taller;
+    padding: none;
   }
 
   .p-section-el-taller {
     text-shadow: 0.1rem 0.1rem black;
     text-align: center;
-  }
-
-  .p1-el-taller {
-    background: url(../archivos-multimedia/el-taller-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 4.5rem;
-  }
-
-  .p2-el-taller {
-    background: url(../archivos-multimedia/ubicacion-taller.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 4.5rem;
-  }
-
-  .p3-el-taller {
-    background: url(../archivos-multimedia/cartel.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 4.5rem;
-  }
-
-  .frente-taller {
-    display: none;
-  }
-
-  .mapa-taller {
-    display: none;
-  }
-
-  .diagonal-taller {
-    display: none;
   }
 }
 @media screen and (max-width: 480px) {
@@ -541,9 +517,9 @@ button.button-section1-servicios:hover {
   .section-1-eltaller {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 8rem repeat(3, 40rem);
-    grid-template-areas: "h1-el-taller" "p1-el-taller" "p2-el-taller" "p3-el-taller";
-    grid-row-gap: 4rem;
+    grid-template-rows: 5rem repeat(6, auto);
+    grid-template-areas: "h1-el-taller" "p1-el-taller" "img1-el-taller" "p2-el-taller" "img2-el-taller" "p3-el-taller" "img3-el-taller";
+    grid-row-gap: 2rem;
     align-items: center;
     justify-content: center;
   }
@@ -551,44 +527,12 @@ button.button-section1-servicios:hover {
   .h1-el-taller {
     text-shadow: 0.1rem 0.1rem black;
     grid-area: h1-el-taller;
+    padding: none;
   }
 
   .p-section-el-taller {
     text-shadow: 0.1rem 0.1rem black;
     text-align: center;
-  }
-
-  .p1-el-taller {
-    background: url(../archivos-multimedia/el-taller-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 4.5rem;
-  }
-
-  .p2-el-taller {
-    background: url(../archivos-multimedia/ubicacion-taller.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 4.5rem;
-  }
-
-  .p3-el-taller {
-    background: url(../archivos-multimedia/cartel.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 4rem;
-  }
-
-  .frente-taller {
-    display: none;
-  }
-
-  .mapa-taller {
-    display: none;
-  }
-
-  .diagonal-taller {
-    display: none;
   }
 }
 /* Sección 1 de SERVICIOS */
@@ -607,6 +551,8 @@ button.button-section1-servicios:hover {
 
 .h1-servicios {
   padding: 50px;
+  text-decoration: underline;
+  text-underline-position: under;
   font-size: 1.8rem;
   color: white;
   text-align: center;
@@ -815,6 +761,8 @@ button.button-section1-servicios:hover {
 .h1-promociones {
   padding: 5px;
   text-align: center;
+  text-decoration: underline;
+  text-underline-position: under;
   font-size: 1.8rem;
   color: white;
   text-align: center;
@@ -993,6 +941,8 @@ button.button-section1-servicios:hover {
 
 .h1-contacto {
   padding: 5px;
+  text-decoration: underline;
+  text-underline-position: under;
   text-align: center;
   text-shadow: 1.5px 1.5px black;
   grid-area: h1-el-taller;
@@ -1017,6 +967,7 @@ button.button-section1-servicios:hover {
 footer {
   grid-area: footer;
   background-color: gray;
+  padding-top: 1rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(7, 40px);
@@ -1083,6 +1034,7 @@ footer {
 .h4-footer {
   font-size: 0.8rem;
   text-decoration: underline;
+  text-underline-position: under;
   text-shadow: 1.5px 1.5px black;
 }
 
@@ -1175,7 +1127,7 @@ h5 {
   footer {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(16, 3rem);
+    grid-template-rows: repeat(16, 2rem);
     grid-template-areas: "datos" "celular" "mail" "fbig" "ubicacion" "mapa" "mapa" "mapa" "mapa" "nuestros" "lunes" "siete" "sabado" "siete2" "copyright" "jordan";
     align-items: center;
     justify-items: center;
@@ -1188,6 +1140,7 @@ h5 {
 
   .h4-footer {
     text-shadow: 0.1rem 0.1rem black;
+    align-self: end;
   }
 
   .p-footer {
@@ -1201,11 +1154,11 @@ h5 {
   }
 
   .logo-instagram {
-    width: 3rem;
+    width: 2rem;
   }
 
   .logo-facebook {
-    width: 3rem;
+    width: 2rem;
   }
 
   h5 {

@@ -20,7 +20,8 @@
 
 .h1-contacto {
     padding: 5px;
-    // text-decoration: underline;
+    text-decoration: underline;
+    text-underline-position: under;
     text-align: center;
     text-shadow: $text-shadow-general;
     // background-color: $bg-color-general;

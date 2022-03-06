@@ -6,6 +6,7 @@
 footer {
     grid-area: footer;
     background-color: gray;
+    padding-top: 1rem;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -80,6 +81,7 @@ footer {
 .h4-footer {
     font-size: 0.8rem;
     text-decoration: underline;
+    text-underline-position: under;
     text-shadow: $text-shadow-general;
     @extend %footer-style;
 }
@@ -194,7 +196,7 @@ h5 {
     footer {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(16, 3rem);
+        grid-template-rows: repeat(16, 2rem);
         grid-template-areas: 
         "datos"
         "celular"
@@ -224,6 +226,7 @@ h5 {
     
     .h4-footer {
         text-shadow: 0.1rem 0.1rem black;
+        align-self: end;
     }
     
     .p-footer {
@@ -237,11 +240,11 @@ h5 {
     }
     
     .logo-instagram {
-        width: 3rem;
+        width: 2rem;
     }
     
     .logo-facebook {
-        width: 3rem;
+        width: 2rem;
     }
     
     h5 {
