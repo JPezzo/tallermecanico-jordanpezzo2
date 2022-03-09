@@ -34,7 +34,6 @@
     color: white;
     text-align: center;
     text-shadow: $text-shadow-general;
-    // background-color: $bg-color-general;
     grid-area: h1;
 }
 
@@ -45,7 +44,6 @@
     text-underline-position: under;
     color: white;
     text-shadow: $text-shadow-general;
-    // background-color: $bg-color-general;
 }
 
 .mecanica-general {
@@ -162,14 +160,12 @@
     font-size: 0.92rem;
     color: white;
     text-shadow: $text-shadow-general;
-    // background-color: $bg-color-general;
     list-style: none;
     text-align: center;
 }
 
 .iconos-servicios {
     width: 80px;
-    // background-color: $bg-color-general;
 }
 
 @media screen and (min-width: 481px) and (max-width: 980px) {
@@ -219,12 +215,10 @@
     .h1-servicios {
         text-shadow: 0.1rem 0.1rem black;        
         padding: none;
-        // background-color: hsla(197, 78%, 46%, 100%);
     }
     
     .h2-section-servicios {
         text-shadow: 0.1rem 0.1rem black;        
-        // background-color: hsla(197, 78%, 46%, 100%);
     }
 
     .iconos-servicios {
@@ -278,12 +272,10 @@
     
     .h1-servicios {
         text-shadow: 0.1rem 0.1rem black;        
-        // background-color: hsla(197, 78%, 46%, 100%);
     }
     
     .h2-section-servicios {
         text-shadow: 0.1rem 0.1rem black;        
-        // background-color: hsla(197, 78%, 46%, 100%);
     }
 
     .iconos-servicios {

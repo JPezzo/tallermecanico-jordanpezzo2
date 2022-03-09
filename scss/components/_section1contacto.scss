@@ -4,17 +4,6 @@
 @import "../base/mixins";
 
 .section-1-contacto {
-    // grid-area: section-1-eltaller;
-
-    // display: grid;
-    // grid-template-columns: repeat(2, 1fr);
-    // grid-template-rows: 145px repeat(3, 1fr);
-    // grid-template-areas: 
-    // "h1-el-taller h1-el-taller"
-    // "p1-el-taller img1-el-taller"
-    // "img2-el-taller p2-el-taller"
-    // "p3-el-taller img3-el-taller";
-    // align-items: center;
     background: url(./../archivos-multimedia/otrofondo.jpg);
 }
 
@@ -24,7 +13,6 @@
     text-underline-position: under;
     text-align: center;
     text-shadow: $text-shadow-general;
-    // background-color: $bg-color-general;
     grid-area: h1-el-taller;
     @include properties(white, 1.8rem);
 }

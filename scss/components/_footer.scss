@@ -171,7 +171,6 @@ h5 {
     footer {
         display: grid;
         grid-template-columns: 1fr;
-        // grid-template-rows: repeat(16, 2.5rem);
         grid-template-rows: 2.5rem 2rem 2rem 2rem 2.5rem 2rem 2.5rem 2rem 2rem 2rem 2rem 2rem 2rem;
         grid-template-areas: 
         "datos"

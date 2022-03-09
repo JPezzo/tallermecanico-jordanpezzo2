@@ -24,7 +24,6 @@
     text-underline-position: under;
     text-align: center;
     text-shadow: $text-shadow-general;
-    // background-color: $bg-color-general;
     grid-area: h1-el-taller;
     @include properties(white, 1.8rem);
 }
@@ -32,7 +31,6 @@
 .p-section-el-taller {
     padding: 5px;
     text-shadow: $text-shadow-general;
-    // background-color: $bg-color-general;
     text-align: center;
     @include properties(white, 1.6rem);
 }
@@ -110,38 +108,6 @@
         text-align: center;
     }
 
-    // .p1-el-taller {
-    //     // background: url(../archivos-multimedia/el-taller-1.jpg);
-    //     // background-repeat: no-repeat;
-    //     // background-size: cover;
-    //     line-height: 4.5rem;
-    // }
-
-    // .p2-el-taller {
-    //     background: url(../archivos-multimedia/ubicacion-taller.png);
-    //     background-repeat: no-repeat;
-    //     background-size: cover;
-    //     line-height: 4.5rem;
-    // }
-
-    // .p3-el-taller {
-    //     background: url(../archivos-multimedia/cartel.jpg);
-    //     background-repeat: no-repeat;
-    //     background-size: cover;
-    //     line-height: 4.5rem;
-    // }
-    
-    // .frente-taller {
-    //     display: none;
-    // }
-    
-    // .mapa-taller {
-    //     display: none;
-    // }
-    
-    // .diagonal-taller {
-    //     display: none;
-    // }
 }
 
 @media screen and (max-width: 480px)  {
@@ -177,37 +143,4 @@
         text-shadow: 0.1rem 0.1rem black;
         text-align: center;
     }
-
-    // .p1-el-taller {
-    //     // background: url(../archivos-multimedia/el-taller-1.jpg);
-    //     // background-repeat: no-repeat;
-    //     // background-size: cover;
-    //     line-height: 4.5rem;
-    // }
-
-    // .p2-el-taller {
-    //     // background: url(../archivos-multimedia/ubicacion-taller.png);
-    //     // background-repeat: no-repeat;
-    //     // background-size: cover;
-    //     line-height: 4.5rem;
-    // }
-
-    // .p3-el-taller {
-    //     // background: url(../archivos-multimedia/cartel.jpg);
-    //     // background-repeat: no-repeat;
-    //     // background-size: cover;
-    //     line-height: 4rem;
-    // }
-    
-    // .frente-taller {
-    //     display: none;
-    // }
-    
-    // .mapa-taller {
-    //     display: none;
-    // }
-    
-    // .diagonal-taller {
-    //     display: none;
-    // }
 }
