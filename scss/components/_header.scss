@@ -23,7 +23,8 @@ header {
 .lista-horizontal {
     list-style: none;
     font-size: $font-size-header;
-    padding-left: 1.8rem;
+    padding-left: 0.35rem;
+    text-align: center;
 }
 
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-inicio {
@@ -73,7 +74,7 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
 }
 
 .logo-header {
-    width: 70%;
+    width: 100%;
 }
 
 .logo-header:hover {
@@ -86,24 +87,11 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
     html {
         font-size: 18px;
     }
-
-    header nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-    }
 }
 
 @media screen and (max-width: 480px) {
 
     html {
         font-size: 12px;
-    }
-
-    header nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-items: center;
     }
 }

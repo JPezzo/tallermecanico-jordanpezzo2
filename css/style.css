@@ -70,8 +70,9 @@ header {
 
 .lista-horizontal {
   list-style: none;
-  font-size: 0.8rem;
-  padding-left: 1.8rem;
+  font-size: 0.78rem;
+  padding-left: 0.35rem;
+  text-align: center;
 }
 
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-inicio {
@@ -121,7 +122,7 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
 }
 
 .logo-header {
-  width: 70%;
+  width: 100%;
 }
 
 .logo-header:hover {
@@ -133,23 +134,10 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
   html {
     font-size: 18px;
   }
-
-  header nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
 }
 @media screen and (max-width: 480px) {
   html {
     font-size: 12px;
-  }
-
-  header nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
   }
 }
 /* Sección 1 del INDEX */
@@ -161,8 +149,8 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
   grid-area: section-1;
   width: 90%;
   justify-self: center;
-  padding-top: 1.8rem;
-  padding-bottom: 1.8rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
 }
 
 .section-1-index > img {
@@ -185,7 +173,7 @@ h1.recomendaciones, h2.recomendaciones {
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: rgba(26, 157, 209, 0.8);
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: white;
   text-shadow: 1.5px 1.5px black;
 }
@@ -299,6 +287,7 @@ button.button-section1-servicios:hover {
   color: white;
   text-shadow: 1.5px 1.5px black;
   align-self: end;
+  padding-left: 0.5rem;
 }
 
 .h3-1-section2-index {
@@ -318,6 +307,7 @@ button.button-section1-servicios:hover {
   font-size: 1.02rem;
   color: white;
   text-shadow: 1.5px 1.5px black;
+  padding-left: 0.5rem;
 }
 
 .p1-section2-index {
@@ -344,8 +334,9 @@ button.button-section1-servicios:hover {
   }
 
   .section-2-index {
-    background: url(../archivos-multimedia/taller-mecanico-frente.jpg);
+    background: url(../archivos-multimedia/taller-mecanico-frente3.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 5rem);
@@ -382,7 +373,7 @@ button.button-section1-servicios:hover {
   }
 
   .section-2-index {
-    background: url(./../archivos-multimedia/taller-mecanico-frente.jpg);
+    background: url(./../archivos-multimedia/taller-mecanico-frente3.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     display: grid;
@@ -868,6 +859,10 @@ button.button-section1-servicios:hover {
   grid-area: h1-el-taller;
   color: white;
   font-size: 1.8rem;
+}
+
+#contactForm {
+  width: 50%;
 }
 
 .form-label {

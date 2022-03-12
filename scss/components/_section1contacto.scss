@@ -17,6 +17,10 @@
     @include properties(white, 1.8rem);
 }
 
+#contactForm {
+    width: 50%;
+}
+
 .form-label {
     color: white;
 }

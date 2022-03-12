@@ -7,15 +7,15 @@
 }
 
 .section-1-index {
-    grid-area: section-1;
-    width: 90%;
-    justify-self: center;
-    padding-top: 1.8rem;
-    padding-bottom: 1.8rem;
+  grid-area: section-1;
+  width: 90%;
+  justify-self: center;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
 }
 
 .section-1-index > img {
-    width: 99.99%;
+  width: 99.99%;
 }
 
 @keyframes zoom {
@@ -32,37 +32,37 @@ div.carousel-inner div.carousel-item > img {
 }
 
 h1.recomendaciones, h2.recomendaciones {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: hsla(197, 78%, 46%, 80%);
-    font-size: 1.8rem;
-    color: white;
-    text-shadow: $text-shadow-general;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: hsla(197, 78%, 46%, 80%);
+  font-size: 1.4rem;
+  color: white;
+  text-shadow: $text-shadow-general;
 }
 
 button.button-section1-servicios {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    background-color: hsla(197, 78%, 46%, 80%);
-    text-shadow: $text-shadow-general;
-    border: 5px outset cadetblue;
-    box-shadow: 1.5px 1.5px rgb(0, 0, 0);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: hsla(197, 78%, 46%, 80%);
+  text-shadow: $text-shadow-general;
+  border: 5px outset cadetblue;
+  box-shadow: 1.5px 1.5px rgb(0, 0, 0);
 }
 
 a.a-section-1-servicios {
-    text-decoration: none;
-    font-size: 1rem;
-    color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
 }
 
 a.a-section-1-servicios:hover {
-    color: rgba(22, 104, 199, 0.8);
+  color: rgba(22, 104, 199, 0.8);
 }
 
 button.button-section1-servicios:hover {
-    animation: moveButton 3s;
+  animation: moveButton 3s;
 }
 
 @keyframes moveButton {
