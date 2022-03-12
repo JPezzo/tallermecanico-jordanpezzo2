@@ -28,3 +28,25 @@
 .invalid-feedback {
     text-shadow: 0.5px 0.5px white;
 }
+
+@media screen and (min-width: 481px) and (max-width: 980px) {
+
+    html {
+        font-size: 18px;
+    }
+
+    #contactForm {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    #contactForm {
+        width: 80%;
+    }
+}
