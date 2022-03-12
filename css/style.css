@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+div.disclaimer {
+  display: none;
+}
+
 html {
   font-size: 25px;
 }
