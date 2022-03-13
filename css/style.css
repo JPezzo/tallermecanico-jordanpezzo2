@@ -982,9 +982,12 @@ footer {
 
 .logo-wpp {
   width: 3rem;
+}
+
+.btn-whatsapp {
   position: fixed;
-  right: 5px;
-  bottom: 5px;
+  right: 0.1rem;
+  bottom: 0.1rem;
   z-index: 3;
 }
 
