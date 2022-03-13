@@ -27,7 +27,7 @@
     padding-bottom: 1.8rem;
     text-decoration: underline;
     text-underline-position: under;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: white;
     text-align: center;
     text-shadow: $text-shadow-general;
@@ -36,7 +36,7 @@
 }
 
 .h3-section-2 {
-    font-size: 1.1rem;
+    font-size: 0.85rem;
     color: white;
     text-shadow: $text-shadow-general;
     align-self: end;
@@ -57,7 +57,7 @@
 
 .p-section-2 {
     padding-bottom: 0.2rem;
-    font-size: 1.02rem;
+    font-size: 0.85rem;
     color: white;
     text-shadow: $text-shadow-general;
     padding-left: 0.5rem;
@@ -118,12 +118,14 @@
         text-align: center;
         text-shadow: 0.1rem 0.1rem black;
         background-color: hsla(197, 78%, 46%, 0%);
+        font-size: 1.1rem;
     }
 
     .p-section-2 {
         text-align: center;
         text-shadow: 0.1rem 0.1rem black;
         background-color: hsla(197, 78%, 46%, 0%);
+        font-size: 1.1rem;
     }
 
     .img-section2-index {
@@ -167,12 +169,14 @@
         text-align: end;
         text-shadow: 0.1rem 0.1rem black;
         background-color: hsla(197, 78%, 46%, 0%);
+        font-size: 1.3rem;
     }
 
     .p-section-2 {
         text-align: center;
         text-shadow: 0.1rem 0.1rem black;
         background-color: hsla(197, 78%, 46%, 0%);
+        font-size: 1.3rem;
     }
 
     .img-section2-index {

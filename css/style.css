@@ -278,7 +278,7 @@ button.button-section1-servicios:hover {
   padding-bottom: 1.8rem;
   text-decoration: underline;
   text-underline-position: under;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   color: white;
   text-align: center;
   text-shadow: 1.5px 1.5px black;
@@ -287,7 +287,7 @@ button.button-section1-servicios:hover {
 }
 
 .h3-section-2 {
-  font-size: 1.1rem;
+  font-size: 0.85rem;
   color: white;
   text-shadow: 1.5px 1.5px black;
   align-self: end;
@@ -308,7 +308,7 @@ button.button-section1-servicios:hover {
 
 .p-section-2 {
   padding-bottom: 0.2rem;
-  font-size: 1.02rem;
+  font-size: 0.85rem;
   color: white;
   text-shadow: 1.5px 1.5px black;
   padding-left: 0.5rem;
@@ -359,12 +359,14 @@ button.button-section1-servicios:hover {
     text-align: center;
     text-shadow: 0.1rem 0.1rem black;
     background-color: rgba(26, 157, 209, 0);
+    font-size: 1.1rem;
   }
 
   .p-section-2 {
     text-align: center;
     text-shadow: 0.1rem 0.1rem black;
     background-color: rgba(26, 157, 209, 0);
+    font-size: 1.1rem;
   }
 
   .img-section2-index {
@@ -397,12 +399,14 @@ button.button-section1-servicios:hover {
     text-align: end;
     text-shadow: 0.1rem 0.1rem black;
     background-color: rgba(26, 157, 209, 0);
+    font-size: 1.3rem;
   }
 
   .p-section-2 {
     text-align: center;
     text-shadow: 0.1rem 0.1rem black;
     background-color: rgba(26, 157, 209, 0);
+    font-size: 1.3rem;
   }
 
   .img-section2-index {
