@@ -22,7 +22,7 @@ header {
 
 .lista-horizontal {
     list-style: none;
-    font-size: $font-size-header;
+    // font-size: 0.78rem;
     padding-left: 0.35rem;
     text-align: center;
 }
@@ -94,4 +94,8 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
     html {
         font-size: 12px;
     }
+
+    // .lista-horizontal {
+    //     font-size: 2rem;
+    // }
 }
