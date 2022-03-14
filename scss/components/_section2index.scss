@@ -145,7 +145,8 @@
         background-size: auto;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 3rem repeat(6, 7rem);
+        // grid-template-rows: 3rem repeat(6, 7rem);
+        grid-template-rows: 5rem 4rem 8rem 4rem 8rem 4rem 8rem;
         grid-template-areas: 
         "h2-section2-index"
         "h3-1-section2-index"

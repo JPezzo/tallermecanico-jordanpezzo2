@@ -239,7 +239,7 @@ h5 {
     footer {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(16, 2rem);
+        grid-template-rows: repeat(16, 3rem);
         grid-template-areas: 
         "datos"
         "celular"
