@@ -715,6 +715,7 @@ button.button-section1-servicios:hover {
 
   .h2-section-servicios {
     text-shadow: 0.1rem 0.1rem black;
+    text-align: center;
   }
 
   .iconos-servicios {
@@ -742,6 +743,7 @@ button.button-section1-servicios:hover {
 
   .h2-section-servicios {
     text-shadow: 0.1rem 0.1rem black;
+    text-align: center;
   }
 
   .iconos-servicios {
@@ -1082,10 +1084,12 @@ h5 {
   .h4-footer {
     text-shadow: 0.1rem 0.1rem black;
     align-self: end;
+    text-align: center;
   }
 
   .p-footer {
     text-shadow: 0.1rem 0.1rem black;
+    text-align: center;
   }
 
   .logo-wpp {
@@ -1128,10 +1132,12 @@ h5 {
   .h4-footer {
     text-shadow: 0.1rem 0.1rem black;
     align-self: end;
+    text-align: center;
   }
 
   .p-footer {
     text-shadow: 0.1rem 0.1rem black;
+    text-align: center;
   }
 
   .logo-wpp {
