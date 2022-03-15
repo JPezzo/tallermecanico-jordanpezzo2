@@ -404,6 +404,7 @@ button.button-section1-servicios:hover {
     text-shadow: 0.1rem 0.1rem black;
     background-color: rgba(26, 157, 209, 0);
     font-size: 1rem;
+    text-align: center;
   }
 
   .p-section-2 {
