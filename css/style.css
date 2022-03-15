@@ -984,11 +984,13 @@ footer {
   text-decoration: underline;
   text-underline-position: under;
   text-shadow: 1.5px 1.5px black;
+  text-align: center;
 }
 
 .p-footer {
   font-size: 0.72rem;
   text-shadow: 1.5px 1.5px black;
+  text-align: center;
 }
 
 .logo-wpp {
@@ -1084,7 +1086,6 @@ h5 {
 
   .h4-footer {
     text-shadow: 0.1rem 0.1rem black;
-    align-self: end;
     text-align: center;
   }
 
@@ -1121,8 +1122,6 @@ h5 {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(16, 3rem);
     grid-template-areas: "datos" "celular" "mail" "fbig" "ubicacion" "mapa" "mapa" "mapa" "mapa" "nuestros" "lunes" "siete" "sabado" "siete2" "copyright" "jordan";
-    align-items: none;
-    justify-items: none;
   }
 
   .mapa {
@@ -1132,7 +1131,6 @@ h5 {
 
   .h4-footer {
     text-shadow: 0.1rem 0.1rem black;
-    align-self: end;
     text-align: center;
   }
 

@@ -84,12 +84,14 @@ footer {
     text-underline-position: under;
     text-shadow: $text-shadow-general;
     @extend %footer-style;
+    text-align: center;
 }
 
 .p-footer {
     font-size: 0.72rem;
     text-shadow: $text-shadow-general;
     @extend %footer-style;
+    text-align: center;
 }
 
 .logo-wpp {
@@ -204,7 +206,6 @@ h5 {
     
     .h4-footer {
         text-shadow: 0.1rem 0.1rem black;
-        align-self: end;
         text-align: center;
     }
     
@@ -259,8 +260,6 @@ h5 {
         "siete2"
         "copyright"
         "jordan";
-        align-items: none;
-        justify-items: none;
     }
     
     
@@ -271,7 +270,6 @@ h5 {
     
     .h4-footer {
         text-shadow: 0.1rem 0.1rem black;
-        align-self: end;
         text-align: center;
     }
     
