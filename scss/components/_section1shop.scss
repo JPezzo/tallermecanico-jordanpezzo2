@@ -1,0 +1,16 @@
+
+@import "../base/variables";
+
+.section-1-shop {
+    background: url(./../archivos-multimedia/otrofondo.jpg);
+}
+
+.h1-shop {
+    padding: 5px;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-align: center;
+    text-shadow: $text-shadow-general;
+    grid-area: h1-el-taller;
+    @include properties(white, 1.8rem);
+}

@@ -910,6 +910,21 @@ button.button-section1-servicios:hover {
     width: 80%;
   }
 }
+.section-1-shop {
+  background: url(./../archivos-multimedia/otrofondo.jpg);
+}
+
+.h1-shop {
+  padding: 5px;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-align: center;
+  text-shadow: 1.5px 1.5px black;
+  grid-area: h1-el-taller;
+  color: white;
+  font-size: 1.8rem;
+}
+
 /* Footer */
 .p-footer, .h4-footer {
   padding: 5px;
