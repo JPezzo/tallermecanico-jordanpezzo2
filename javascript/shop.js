@@ -39,7 +39,7 @@ while(ingreso != 'NO') {
     switch(ingreso) {
         case 'SI':
             alert('Esta es nuestra lista de productos: A) Llave cruz - B) Refrigerante - C) Destornillador');
-            comprarProductos()
+            comprarProductos();
             break;
         
         case '':
