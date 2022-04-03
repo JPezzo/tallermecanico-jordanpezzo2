@@ -9,7 +9,7 @@ function comprarProductos() {
     let productoDeseado = prompt('Ingrese el producto deseado')
     let cantidadDeseada = parseInt(prompt('Ingrese la cantidad deseada del producto'))
 
-    alert('Usted ha seleccionado ' + cantidadDeseada + ' items del producto: ' + productoDeseado + '.')
+    alert(`Usted ha seleccionado ${cantidadDeseada} items del producto: ${productoDeseado}.`)
 
     let masProductos = prompt('¿Desea seleccionar más productos? Por favor ingrese SI o NO').toUpperCase()
 
