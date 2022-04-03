@@ -1,5 +1,5 @@
 
-// Condicional para ingreso a la tienda y lista de productos
+// Función para ingreso a la tienda y lista de productos
 
 function ingreso1() {
     let ingreso = prompt('¿Desea ingresar a la tienda online y ver la lista de productos? Por favor ingrese SI o NO').toUpperCase();
