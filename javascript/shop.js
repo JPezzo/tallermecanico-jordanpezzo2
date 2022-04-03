@@ -25,6 +25,8 @@ function ingreso1() {
     alert('¡Continúe navegando por nuestra página!');
 }
 
+ingreso1();
+
 // Función para ingresar producto y cantidad luego de haber visto la lista de productos
 
 function comprarProductos() {
@@ -68,7 +70,6 @@ function comprarProductos() {
     masProductos1();
 }
 
-ingreso1();
 
 
 
