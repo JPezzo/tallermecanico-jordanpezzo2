@@ -1,11 +1,19 @@
     
 // Listado de productos
-const PRODUCTOS = [
-    {id: 1, name: 'Llave cruz', price: 1500},
-    {id: 2, name: 'Refrigerante', price: 850},
-    {id: 3, name: 'Destornillador', price: 500},
-    {id: 4, name: 'Bidón de aceite Elaion', price: 2500}
-]
+class Producto {
+    constructor(name, price) {
+        this.name = name.toUpperCase()
+        this.price = parseFloat(price)
+        this.sold = false
+    }
+
+    addIVA() {
+        this.price = this.price * 1.21
+    }
+}
+
+// Carrito de compras
+const CARRITO = []
 
 // Función para ingreso a la tienda y lista de productos
 
@@ -41,7 +49,7 @@ function comprarProductos() {
     let cantidadDeseada = parseInt(prompt('Ingrese la cantidad deseada del producto'));
 
     // Condicional que constata que los prompt no queden vacíos
-    if((productoDeseado == '') || (cantidadDeseada == '')) {
+    if((productoDeseado == '') || (isNaN(cantidadDeseada))) {
         alert('Debe ingresar un producto y un número válidos');
         comprarProductos();
     } else {
