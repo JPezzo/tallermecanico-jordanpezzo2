@@ -87,26 +87,26 @@
       <div class="container py-4 d-flex justify-content-center">
 
         <!-- Bootstrap 5 starter form -->
-        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+        <form action="form.php" method="POST" id="contactForm" data-sb-form-api-token="API_TOKEN">
 
           <!-- Name input -->
           <div class="mb-3">
             <label class="form-label" for="name">Nombre</label>
-            <input class="form-control" id="name" type="text" data-sb-validations="required" />
+            <input class="form-control" name="nombre" id="name" type="text" data-sb-validations="required" />
             <div class="invalid-feedback" data-sb-feedback="name:required">El campo "Nombre" es requerido</div>
           </div>
 
           <!-- Last-Name input -->
           <div class="mb-3">
             <label class="form-label" for="name">Apellido</label>
-            <input class="form-control" id="name" type="text" data-sb-validations="required" />
+            <input class="form-control" name="apellido" id="name" type="text" data-sb-validations="required" />
             <div class="invalid-feedback" data-sb-feedback="name:required">El campo "Apellido" es requerido</div>
           </div>
 
           <!-- Email address input -->
           <div class="mb-3">
             <label class="form-label" for="emailAddress">Correo electrónico</label>
-            <input class="form-control" id="emailAddress" type="email" data-sb-validations="required, email" />
+            <input class="form-control" name="correo" id="emailAddress" type="email" data-sb-validations="required, email" />
             <div class="invalid-feedback" data-sb-feedback="emailAddress:required">El campo "Correo electrónico" es requerido</div>
             <div class="invalid-feedback" data-sb-feedback="emailAddress:email">El correo electrónico ingresado no es válido</div>
           </div>
@@ -114,20 +114,20 @@
           <!-- Phone input -->
           <div class="mb-3">
             <label class="form-label" for="name">Teléfono</label>
-            <input class="form-control" id="name" type="text"/>
+            <input class="form-control" name="telefono" id="name" type="text"/>
           </div>
 
           <!-- Subject input -->
           <div class="mb-3">
             <label class="form-label" for="name">Título de su consulta</label>
-            <input class="form-control" id="name" type="text" data-sb-validations="required" />
+            <input class="form-control" name="titulo" id="name" type="text" data-sb-validations="required" />
             <div class="invalid-feedback" data-sb-feedback="name:required">El campo "Título de su consulta" es requerido (Ejemplo: "Reparación de frenos")</div>
           </div>
 
           <!-- Message input -->
           <div class="mb-3">
             <label class="form-label" for="message">Mensaje</label>
-            <textarea class="form-control" id="message" type="text" style="height: 10rem;" data-sb-validations="required"></textarea>
+            <textarea class="form-control" name="mensaje" id="message" type="text" style="height: 10rem;" data-sb-validations="required"></textarea>
             <div class="invalid-feedback" data-sb-feedback="message:required">El campo "Mensaje" es requerido</div>
           </div>
 
